@@ -1,6 +1,6 @@
-./Project/Library/
-./Project/Logs
-./Project/Temp
-./Project/UserSettings
-./Project/.vscode
-./Project/.vs
+/Project/Library/
+/Project/Logs/
+/Project/Temp/
+/Project/UserSettings/
+/Project/.vscode/
+/Project/.vs/
