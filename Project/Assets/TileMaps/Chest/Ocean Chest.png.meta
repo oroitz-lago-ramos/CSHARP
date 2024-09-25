@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ocean Chest_0: -283372226816360670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Evil Chest_0: 5776545077941907174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

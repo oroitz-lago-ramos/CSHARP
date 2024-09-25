@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monsterer Chest_0: 8348584845887312417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

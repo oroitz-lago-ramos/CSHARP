@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon Chest_0: 8331004212654749889
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

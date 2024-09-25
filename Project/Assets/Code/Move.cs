@@ -8,6 +8,6 @@ public class Move : MonoBehaviour{
         if(Input.GetKey(KeyCode.S)){movement += -Vector3.up;}
         if(Input.GetKey(KeyCode.A)){movement += -Vector3.right;}
         if(Input.GetKey(KeyCode.D)){movement += Vector3.right;}
-        this.rigidBody.linearVelocity = movement.normalized * this.speed * Time.deltaTime;
+        this.rigidBody.linearVelocity = movement.normalized * this.speed * Time.fixedDeltaTime;
     }
 }

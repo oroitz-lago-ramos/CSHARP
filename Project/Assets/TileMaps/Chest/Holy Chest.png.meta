@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Holy Chest_0: 7013797159898057255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
