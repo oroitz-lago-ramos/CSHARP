@@ -1,0 +1,1833 @@
+fileFormatVersion: 2
+guid: e3bbb3b8828bbcf4a8debd4c034f17d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8478658009978014984
+    second: Sephiroth_0
+  - first:
+      213: 8880082173146033359
+    second: Sephiroth_1
+  - first:
+      213: 9210467195111850735
+    second: Sephiroth_2
+  - first:
+      213: 9038129564033292187
+    second: Sephiroth_3
+  - first:
+      213: 8497835695211382456
+    second: Sephiroth_4
+  - first:
+      213: -484310688868339763
+    second: Sephiroth_5
+  - first:
+      213: -2206314446699756321
+    second: Sephiroth_6
+  - first:
+      213: -2066491451791196165
+    second: Sephiroth_7
+  - first:
+      213: 4296021153004614925
+    second: Sephiroth_8
+  - first:
+      213: 8403033857511507469
+    second: Sephiroth_9
+  - first:
+      213: -3284998570912200062
+    second: Sephiroth_10
+  - first:
+      213: 157905049391706716
+    second: Sephiroth_11
+  - first:
+      213: -4776582358238669492
+    second: Sephiroth_12
+  - first:
+      213: 1650832903001601115
+    second: Sephiroth_13
+  - first:
+      213: 1981670627340934437
+    second: Sephiroth_14
+  - first:
+      213: -4697492706962129629
+    second: Sephiroth_15
+  - first:
+      213: 9177539960467975834
+    second: Sephiroth_16
+  - first:
+      213: -2555274545973821116
+    second: Sephiroth_17
+  - first:
+      213: 8723294843292506953
+    second: Sephiroth_18
+  - first:
+      213: 5101861365375314686
+    second: Sephiroth_19
+  - first:
+      213: 8752508728980275203
+    second: Sephiroth_20
+  - first:
+      213: 113728720726077689
+    second: Sephiroth_21
+  - first:
+      213: 4347306680018295974
+    second: Sephiroth_22
+  - first:
+      213: 5371190470628254874
+    second: Sephiroth_23
+  - first:
+      213: 7585525453467079248
+    second: Sephiroth_24
+  - first:
+      213: 7703737829484654667
+    second: Sephiroth_25
+  - first:
+      213: 2387454708220001499
+    second: Sephiroth_26
+  - first:
+      213: 5823219433500596750
+    second: Sephiroth_27
+  - first:
+      213: -7142963747496701781
+    second: Sephiroth_28
+  - first:
+      213: -1703983990077337421
+    second: Sephiroth_29
+  - first:
+      213: 8168910732479894053
+    second: Sephiroth_30
+  - first:
+      213: -641089297460541030
+    second: Sephiroth_31
+  - first:
+      213: 4875882823133704644
+    second: Sephiroth_32
+  - first:
+      213: 3399958156311500520
+    second: Sephiroth_33
+  - first:
+      213: -6631822052230650062
+    second: Sephiroth_34
+  - first:
+      213: 739747660749403063
+    second: Sephiroth_35
+  - first:
+      213: 5036120294124878915
+    second: Sephiroth_36
+  - first:
+      213: 3413233460478981722
+    second: Sephiroth_37
+  - first:
+      213: -3700550239903153047
+    second: Sephiroth_38
+  - first:
+      213: 3205206448345598217
+    second: Sephiroth_39
+  - first:
+      213: -5412568234869797465
+    second: Sephiroth_40
+  - first:
+      213: -5367819853076883652
+    second: Sephiroth_41
+  - first:
+      213: 6431955019757062840
+    second: Sephiroth_42
+  - first:
+      213: 6612205454064415734
+    second: Sephiroth_43
+  - first:
+      213: 8015051488677697397
+    second: Sephiroth_44
+  - first:
+      213: 8682230751302979891
+    second: Sephiroth_45
+  - first:
+      213: 2594150130341934802
+    second: Sephiroth_46
+  - first:
+      213: -3427032636298537312
+    second: Sephiroth_47
+  - first:
+      213: 2116316355170665223
+    second: Sephiroth_48
+  - first:
+      213: 1140103612839147153
+    second: Sephiroth_49
+  - first:
+      213: 4175148066604095691
+    second: Sephiroth_50
+  - first:
+      213: -324755890199367321
+    second: Sephiroth_51
+  - first:
+      213: -3531678523176116807
+    second: Sephiroth_52
+  - first:
+      213: -6205412651048840417
+    second: Sephiroth_53
+  - first:
+      213: -1379402997884892114
+    second: Sephiroth_54
+  - first:
+      213: 3568420810336614310
+    second: Sephiroth_55
+  - first:
+      213: -3288997069356654965
+    second: Sephiroth_56
+  - first:
+      213: -7753645799673284716
+    second: Sephiroth_57
+  - first:
+      213: -8805105964993267773
+    second: Sephiroth_58
+  - first:
+      213: 324127980474980625
+    second: Sephiroth_59
+  - first:
+      213: 3359572060784466383
+    second: Sephiroth_60
+  - first:
+      213: 3019005076345836197
+    second: Sephiroth_61
+  - first:
+      213: -7866534719019876734
+    second: Sephiroth_62
+  - first:
+      213: -4623676056680775581
+    second: Sephiroth_63
+  - first:
+      213: -2510914957174731736
+    second: Sephiroth_64
+  - first:
+      213: 9040925777151625737
+    second: Sephiroth_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sephiroth_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f27d373671c55a80800000000000000
+      internalID: -8478658009978014984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 240
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcce5a210b36c3b70800000000000000
+      internalID: 8880082173146033359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2c7046d1722df70800000000000000
+      internalID: 9210467195111850735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b971922d3f2ed6d70800000000000000
+      internalID: 9038129564033292187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 240
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b685b49a806ee570800000000000000
+      internalID: 8497835695211382456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_5
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 223
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfe3159ef16749f0800000000000000
+      internalID: -484310688868339763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_6
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 230
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd406a543b89161e0800000000000000
+      internalID: -2206314446699756321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 230
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffba9c29f85253e0800000000000000
+      internalID: -2066491451791196165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 230
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0577643a788e9b30800000000000000
+      internalID: 4296021153004614925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06cd80b5c29d9470800000000000000
+      internalID: 8403033857511507469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 216
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28acc1554375962d0800000000000000
+      internalID: -3284998570912200062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 202
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52bb394ecdf03200800000000000000
+      internalID: 157905049391706716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 190
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4559c017ab26bdb0800000000000000
+      internalID: -4776582358238669492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 190
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54ffee57cfe8e610800000000000000
+      internalID: 1650832903001601115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_14
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 209
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d5b7cafee408b10800000000000000
+      internalID: 1981670627340934437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 205
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32db88a75472fceb0800000000000000
+      internalID: -4697492706962129629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 205
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e65a728fb2d5f70800000000000000
+      internalID: 9177539960467975834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 205
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44102afb657d98cd0800000000000000
+      internalID: -2555274545973821116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b5275217e5f0970800000000000000
+      internalID: 8723294843292506953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_19
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 165
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa2c7881e37dc640800000000000000
+      internalID: 5101861365375314686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 165
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3000064f058277970800000000000000
+      internalID: 8752508728980275203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_21
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 159
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f033af3bab049100800000000000000
+      internalID: 113728720726077689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_22
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 184
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac5c28746cb45c30800000000000000
+      internalID: 4347306680018295974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_23
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 180
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94a2c6764d4a8a40800000000000000
+      internalID: 5371190470628254874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 180
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052d698c533354960800000000000000
+      internalID: 7585525453467079248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 180
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40fb216dbc29ea60800000000000000
+      internalID: 7703737829484654667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc79c86861f12120800000000000000
+      internalID: 2387454708220001499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a54f6d83b30d050800000000000000
+      internalID: 5823219433500596750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 140
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba057f211581fdc90800000000000000
+      internalID: -7142963747496701781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 140
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0dc70d69b3a58e0800000000000000
+      internalID: -1703983990077337421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_30
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 134
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522175bc70dcd5170800000000000000
+      internalID: 8168910732479894053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_31
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 155
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a994f8b3ea46a17f0800000000000000
+      internalID: -641089297460541030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 131
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c13057189d9aa340800000000000000
+      internalID: 4875882823133704644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 156
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6932eede31f2f20800000000000000
+      internalID: 3399958156311500520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_34
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 132
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237a03bfaf807f3a0800000000000000
+      internalID: -6631822052230650062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_35
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 156
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3f46ef39c144a00800000000000000
+      internalID: 739747660749403063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_36
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 132
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cf27999b4e3e540800000000000000
+      internalID: 5036120294124878915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56b35b8fbd3e5f20800000000000000
+      internalID: 3413233460478981722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_38
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 115
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9640615c92105acc0800000000000000
+      internalID: -3700550239903153047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_39
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 91
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9094e69684e2b7c20800000000000000
+      internalID: 3205206448345598217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 116
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adc50e0ed1b2e4b0800000000000000
+      internalID: -5412568234869797465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 92
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c371017984ca185b0800000000000000
+      internalID: -5367819853076883652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_42
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 110
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba09e33305e24950800000000000000
+      internalID: 6431955019757062840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 107
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3f867d3d543cb50800000000000000
+      internalID: 6612205454064415734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_44
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 108
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57799170dde2b3f60800000000000000
+      internalID: 8015051488677697397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_45
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 116
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331136d2eda7d7870800000000000000
+      internalID: 8682230751302979891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_46
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 101
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d670159cc5400420800000000000000
+      internalID: 2594150130341934802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a651c779fbb070d0800000000000000
+      internalID: -3427032636298537312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_48
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 87
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7030c46238aae5d10800000000000000
+      internalID: 2116316355170665223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_49
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 99
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196ba62023672df00800000000000000
+      internalID: 1140103612839147153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_50
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 82
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc89892bb0b11f930800000000000000
+      internalID: 4175148066604095691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_51
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 88
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76173fd0d3c3e7bf0800000000000000
+      internalID: -324755890199367321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_52
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 99
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd16354815fcfec0800000000000000
+      internalID: -3531678523176116807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_53
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 90
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13d4815212f1e9a0800000000000000
+      internalID: -6205412651048840417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c46f428406bdce0800000000000000
+      internalID: -1379402997884892114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_55
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 68
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7b93912d3958130800000000000000
+      internalID: 3568420810336614310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_56
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 69
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e12bd57922b52d0800000000000000
+      internalID: -3288997069356654965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_57
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 71
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497364cc934856490800000000000000
+      internalID: -7753645799673284716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_58
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 69
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c737eab6cafdc580800000000000000
+      internalID: -8805105964993267773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_59
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 75
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119d9f15ea88f7400800000000000000
+      internalID: 324127980474980625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_60
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 79
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc992605df89f9e20800000000000000
+      internalID: 3359572060784466383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_61
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 77
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2d1be1f19a5e920800000000000000
+      internalID: 3019005076345836197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28efa8b0a5474d290800000000000000
+      internalID: -7866534719019876734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_63
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 55
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360401daf1765dfb0800000000000000
+      internalID: -4623676056680775581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_64
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 56
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c826c5620772dd0800000000000000
+      internalID: -2510914957174731736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sephiroth_65
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 59
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a8bcbe712d77d70800000000000000
+      internalID: 9040925777151625737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sephiroth_0: -8478658009978014984
+      Sephiroth_1: 8880082173146033359
+      Sephiroth_10: -3284998570912200062
+      Sephiroth_11: 157905049391706716
+      Sephiroth_12: -4776582358238669492
+      Sephiroth_13: 1650832903001601115
+      Sephiroth_14: 1981670627340934437
+      Sephiroth_15: -4697492706962129629
+      Sephiroth_16: 9177539960467975834
+      Sephiroth_17: -2555274545973821116
+      Sephiroth_18: 8723294843292506953
+      Sephiroth_19: 5101861365375314686
+      Sephiroth_2: 9210467195111850735
+      Sephiroth_20: 8752508728980275203
+      Sephiroth_21: 113728720726077689
+      Sephiroth_22: 4347306680018295974
+      Sephiroth_23: 5371190470628254874
+      Sephiroth_24: 7585525453467079248
+      Sephiroth_25: 7703737829484654667
+      Sephiroth_26: 2387454708220001499
+      Sephiroth_27: 5823219433500596750
+      Sephiroth_28: -7142963747496701781
+      Sephiroth_29: -1703983990077337421
+      Sephiroth_3: 9038129564033292187
+      Sephiroth_30: 8168910732479894053
+      Sephiroth_31: -641089297460541030
+      Sephiroth_32: 4875882823133704644
+      Sephiroth_33: 3399958156311500520
+      Sephiroth_34: -6631822052230650062
+      Sephiroth_35: 739747660749403063
+      Sephiroth_36: 5036120294124878915
+      Sephiroth_37: 3413233460478981722
+      Sephiroth_38: -3700550239903153047
+      Sephiroth_39: 3205206448345598217
+      Sephiroth_4: 8497835695211382456
+      Sephiroth_40: -5412568234869797465
+      Sephiroth_41: -5367819853076883652
+      Sephiroth_42: 6431955019757062840
+      Sephiroth_43: 6612205454064415734
+      Sephiroth_44: 8015051488677697397
+      Sephiroth_45: 8682230751302979891
+      Sephiroth_46: 2594150130341934802
+      Sephiroth_47: -3427032636298537312
+      Sephiroth_48: 2116316355170665223
+      Sephiroth_49: 1140103612839147153
+      Sephiroth_5: -484310688868339763
+      Sephiroth_50: 4175148066604095691
+      Sephiroth_51: -324755890199367321
+      Sephiroth_52: -3531678523176116807
+      Sephiroth_53: -6205412651048840417
+      Sephiroth_54: -1379402997884892114
+      Sephiroth_55: 3568420810336614310
+      Sephiroth_56: -3288997069356654965
+      Sephiroth_57: -7753645799673284716
+      Sephiroth_58: -8805105964993267773
+      Sephiroth_59: 324127980474980625
+      Sephiroth_6: -2206314446699756321
+      Sephiroth_60: 3359572060784466383
+      Sephiroth_61: 3019005076345836197
+      Sephiroth_62: -7866534719019876734
+      Sephiroth_63: -4623676056680775581
+      Sephiroth_64: -2510914957174731736
+      Sephiroth_65: 9040925777151625737
+      Sephiroth_7: -2066491451791196165
+      Sephiroth_8: 4296021153004614925
+      Sephiroth_9: 8403033857511507469
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
