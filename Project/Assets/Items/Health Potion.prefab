@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 144576260, guid: 8b6d1bd0d592a3548b9b2eb774190f89, type: 3}
+  m_Sprite: {fileID: -3065595510956808684, guid: fd054e481f9601744bb33093e6b3c261, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -149,6 +149,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 30
   description: Replenishes 30hp.
-  interactWith:
-    serializedVersion: 2
-    m_Bits: 8
