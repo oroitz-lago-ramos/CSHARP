@@ -62,6 +62,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Code\Move.cs" />
+    <Compile Include="Assets\Code\Item.cs" />
+    <Compile Include="Assets\Code\Stats.cs" />
+    <Compile Include="Assets\Code\Team.cs" />
+    <Compile Include="Assets\Code\Inventory.cs" />
+    <Compile Include="Assets\Code\CollisionManager.cs" />
+    <Compile Include="Assets\Code\Entity.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

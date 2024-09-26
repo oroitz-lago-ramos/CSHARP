@@ -105,7 +105,10 @@ GameObject:
   - component: {fileID: 7936421176506133537}
   - component: {fileID: 6342870014849163450}
   - component: {fileID: 3231334027470634620}
-  m_Layer: 0
+  - component: {fileID: 1019457533651780299}
+  - component: {fileID: 8464612194516221621}
+  - component: {fileID: 2857724599240690693}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,3 +273,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 6342870014849163450}
   speed: 300
+--- !u!114 &1019457533651780299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5184471974808715692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd9616d11599d8141bcc4a077c9a6792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  members:
+  - name: Sephiroth
+    sprite: {fileID: 9038129564033292187, guid: e3bbb3b8828bbcf4a8debd4c034f17d8, type: 3}
+    baseStats:
+      health: 100
+      mana: 100
+      attack: 10
+      defense: 10
+      speed: 10
+      accuracy: 10
+      criticalRate: 10
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+--- !u!114 &8464612194516221621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5184471974808715692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ececc48fda7fbaf4eab1655e6e1f4bc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2857724599240690693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5184471974808715692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b06ed9dfe682ef04eaac48a1782903b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 128
