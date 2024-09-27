@@ -103,8 +103,8 @@ TextureImporter:
       name: TitleBackground_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 14
+        x: 2
+        y: 2
         width: 1211
         height: 670
       alignment: 0
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      TitleBackground_0: -5836381744118626211
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
