@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 004d80ba8c679f94fb61094e2245cc1e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1683706961389295677
+    second: InGameMenuGUI_0
+  - first:
+      213: -3895328783130038128
+    second: InGameMenuGUI_1
+  - first:
+      213: 2000174251669960155
+    second: InGameMenuGUI_2
+  - first:
+      213: -2132797429989536046
+    second: InGameMenuGUI_3
+  - first:
+      213: -2595770368025885136
+    second: InGameMenuGUI_4
+  - first:
+      213: 3387496300210112532
+    second: InGameMenuGUI_5
+  - first:
+      213: 2863762144562405657
+    second: InGameMenuGUI_6
+  - first:
+      213: -323296138745519767
+    second: InGameMenuGUI_7
+  - first:
+      213: -5515345314863441434
+    second: InGameMenuGUI_8
+  - first:
+      213: 8980065556876755109
+    second: InGameMenuGUI_9
+  - first:
+      213: -8102310248006547200
+    second: InGameMenuGUI_10
+  - first:
+      213: 457201076917926462
+    second: InGameMenuGUI_11
+  - first:
+      213: 982632303026443931
+    second: InGameMenuGUI_12
+  - first:
+      213: -4075100456671088571
+    second: InGameMenuGUI_13
+  - first:
+      213: 5431398775261346161
+    second: InGameMenuGUI_14
+  - first:
+      213: -1982579336249220716
+    second: InGameMenuGUI_15
+  - first:
+      213: -3594800434263820895
+    second: InGameMenuGUI_16
+  - first:
+      213: 4269159716533999255
+    second: InGameMenuGUI_17
+  - first:
+      213: 8784236886723876931
+    second: InGameMenuGUI_18
+  - first:
+      213: 3688567792533455337
+    second: InGameMenuGUI_19
+  - first:
+      213: -2758092686521720853
+    second: InGameMenuGUI_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: InGameMenuGUI_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 79
+        width: 130
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38167b8f8abd5710800000000000000
+      internalID: 1683706961389295677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 63
+        width: 11
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090fd2e2c1301f9c0800000000000000
+      internalID: -3895328783130038128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 63
+        width: 11
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5bbaf62eb02cb10800000000000000
+      internalID: 2000174251669960155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 53
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de8b979908c662e0800000000000000
+      internalID: -2132797429989536046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 115
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036055f6a98f9fbd0800000000000000
+      internalID: -2595770368025885136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 60
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41849f3ffedc20f20800000000000000
+      internalID: 3387496300210112532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_6
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 71
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9116ad36f702eb720800000000000000
+      internalID: 2863762144562405657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 67
+        width: 61
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96161dcefdb638bf0800000000000000
+      internalID: -323296138745519767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 65
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e913fd58ae8573b0800000000000000
+      internalID: -5515345314863441434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 51
+        width: 61
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a00c59ab0a9f9c70800000000000000
+      internalID: 8980065556876755109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 50
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009009fd1cfce8f80800000000000000
+      internalID: -8102310248006547200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 4
+        width: 11
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a7e9405fd485600800000000000000
+      internalID: 457201076917926462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 4
+        width: 11
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9617b69fd203ad00800000000000000
+      internalID: 982632303026443931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 12
+        width: 75
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5407618b9b55277c0800000000000000
+      internalID: -4075100456671088571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_14
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 47
+        width: 66
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179b1f8c864306b40800000000000000
+      internalID: 5431398775261346161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491e5db09967c74e0800000000000000
+      internalID: -1982579336249220716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5f8451d04bc1ec0800000000000000
+      internalID: -3594800434263820895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 31
+        width: 74
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7969a69a42a1f3b30800000000000000
+      internalID: 4269159716533999255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_18
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3485f0858e0e7e970800000000000000
+      internalID: 8784236886723876931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 3
+        width: 80
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e147eb4ddc603330800000000000000
+      internalID: 3688567792533455337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameMenuGUI_20
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef154a805949b9d0800000000000000
+      internalID: -2758092686521720853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      InGameMenuGUI_0: 1683706961389295677
+      InGameMenuGUI_1: -3895328783130038128
+      InGameMenuGUI_10: -8102310248006547200
+      InGameMenuGUI_11: 457201076917926462
+      InGameMenuGUI_12: 982632303026443931
+      InGameMenuGUI_13: -4075100456671088571
+      InGameMenuGUI_14: 5431398775261346161
+      InGameMenuGUI_15: -1982579336249220716
+      InGameMenuGUI_16: -3594800434263820895
+      InGameMenuGUI_17: 4269159716533999255
+      InGameMenuGUI_18: 8784236886723876931
+      InGameMenuGUI_19: 3688567792533455337
+      InGameMenuGUI_2: 2000174251669960155
+      InGameMenuGUI_20: -2758092686521720853
+      InGameMenuGUI_3: -2132797429989536046
+      InGameMenuGUI_4: -2595770368025885136
+      InGameMenuGUI_5: 3387496300210112532
+      InGameMenuGUI_6: 2863762144562405657
+      InGameMenuGUI_7: -323296138745519767
+      InGameMenuGUI_8: -5515345314863441434
+      InGameMenuGUI_9: 8980065556876755109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
