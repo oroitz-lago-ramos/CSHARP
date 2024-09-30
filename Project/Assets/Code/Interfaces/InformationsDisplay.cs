@@ -19,11 +19,15 @@ public class InformationsDisplay : MonoBehaviour
 
     public Image[] images;
 
+    private SpriteRenderer playerSprite;
+
     void Start()
     {
+        selectedCharacterBackground[0].gameObject.SetActive(true);
+        playerSprite = GameObject.Find("Player").GetComponent<SpriteRenderer>();
         TextAttribution();
         SpriteAttribution();
-        selectedCharacterBackground[0].gameObject.SetActive(true);
+
     }
 
     void Update()
@@ -99,6 +103,7 @@ public class InformationsDisplay : MonoBehaviour
         {
             images[i].sprite = Team.main.members[i].sprite;
         }
+        playerSprite.sprite = Team.main.members[0].sprite;
     }
 
     private void UpdateSelectedCharacterBackgroundPosition()

@@ -23,6 +23,7 @@ public class WaterStep : MonoBehaviour
         var layer = 1 << collision.gameObject.layer;
         if ((layer & this.characterLayer) != 0)
         {
+            Debug.Log("Ici");
             audio.Play();
         }
     }
