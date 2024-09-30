@@ -1,0 +1,1692 @@
+fileFormatVersion: 2
+guid: 010e8c0504be0b5449b3cf46785aedad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3519465071263830534
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_0
+  - first:
+      213: 1828128764924822847
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_1
+  - first:
+      213: -778689259121652408
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_2
+  - first:
+      213: -4461087693475067074
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_3
+  - first:
+      213: -6054659408829445151
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_4
+  - first:
+      213: 2766467815127744487
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_5
+  - first:
+      213: -8981488080373464988
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_6
+  - first:
+      213: -1541364422494321757
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_7
+  - first:
+      213: 2432134221021018559
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_8
+  - first:
+      213: -8171555258549228741
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_9
+  - first:
+      213: 436389070405809982
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_10
+  - first:
+      213: -4616864725446749161
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_11
+  - first:
+      213: -7973174442484531416
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_12
+  - first:
+      213: -8831901119631495578
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_13
+  - first:
+      213: 1592813278891614223
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_14
+  - first:
+      213: -6725634292333125599
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_15
+  - first:
+      213: -3071690026420472510
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_16
+  - first:
+      213: 4833450059114317303
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_17
+  - first:
+      213: 5323476993044374495
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_18
+  - first:
+      213: -4196273609435744150
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_19
+  - first:
+      213: 5431482343551330880
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_20
+  - first:
+      213: 2038932042079659811
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_21
+  - first:
+      213: -6989101710170689859
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_22
+  - first:
+      213: 278356267780942510
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_23
+  - first:
+      213: -3538236639196448361
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_24
+  - first:
+      213: -8756934653850651907
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_25
+  - first:
+      213: -5945346015758776724
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_26
+  - first:
+      213: 6220280269438602793
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_27
+  - first:
+      213: -604293090327336480
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_28
+  - first:
+      213: -797970294709624624
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_29
+  - first:
+      213: 3436399406826393236
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_30
+  - first:
+      213: -5485770100939527561
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_31
+  - first:
+      213: 838837797716618523
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_32
+  - first:
+      213: 3664773877025913340
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_33
+  - first:
+      213: 3300385525274848548
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_34
+  - first:
+      213: 2002084803745584361
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_35
+  - first:
+      213: 2140660830662012002
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_36
+  - first:
+      213: 1030354377987311819
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_37
+  - first:
+      213: 2155662558519709183
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_38
+  - first:
+      213: -5284673476504150277
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_39
+  - first:
+      213: -4105345980388508366
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_40
+  - first:
+      213: 4909136353790237407
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_41
+  - first:
+      213: -4060006246668488371
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_42
+  - first:
+      213: 467046564387052572
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_43
+  - first:
+      213: -2887626894977124005
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_44
+  - first:
+      213: 4539006608810481749
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_45
+  - first:
+      213: -4173241024180008944
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_46
+  - first:
+      213: 8147566914540870134
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_47
+  - first:
+      213: -100617520160002658
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_48
+  - first:
+      213: -5284679894967399812
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_49
+  - first:
+      213: -5665488746005281847
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_50
+  - first:
+      213: 7631413737925195822
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_51
+  - first:
+      213: -3936029199856373489
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_52
+  - first:
+      213: 5703345691721102628
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_53
+  - first:
+      213: 8679749423007767815
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_54
+  - first:
+      213: -7383837616011847694
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_55
+  - first:
+      213: -3864124773265613673
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_56
+  - first:
+      213: 8394093704403123136
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_57
+  - first:
+      213: -2887273514949914486
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_58
+  - first:
+      213: -6254688609348524092
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_59
+  - first:
+      213: 7196560334948170081
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_60
+  - first:
+      213: -3723809738090242543
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_61
+  - first:
+      213: -4129032923527444657
+    second: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdace32a29582fc0800000000000000
+      internalID: -3519465071263830534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3584050d61de5910800000000000000
+      internalID: 1828128764924822847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 214
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d44a79e3a8135f0800000000000000
+      internalID: -778689259121652408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 239
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b4d8ee0680712c0800000000000000
+      internalID: -4461087693475067074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 222
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb8ebcb85789fba0800000000000000
+      internalID: -6054659408829445151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 230
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef7d3b02d7746620800000000000000
+      internalID: 2766467815127744487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 230
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4604fe64d285b5380800000000000000
+      internalID: -8981488080373464988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 230
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a30dc76939fb9ae0800000000000000
+      internalID: -1541364422494321757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 230
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb97702203da0c120800000000000000
+      internalID: 2432134221021018559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_9
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 239
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ba2bf79cdc89e80800000000000000
+      internalID: -8171555258549228741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 223
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37b6652c8d5e0600800000000000000
+      internalID: 436389070405809982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71417bf4ef99defb0800000000000000
+      internalID: -4616864725446749161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 189
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f7c779618995190800000000000000
+      internalID: -7973174442484531416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 206
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e6df0a9b8ce6580800000000000000
+      internalID: -8831901119631495578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 205
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f002cd1fc3fca1610800000000000000
+      internalID: 1592813278891614223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 205
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1206c4cbe3fb9a2a0800000000000000
+      internalID: -6725634292333125599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_16
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 205
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245f81b023a2f55d0800000000000000
+      internalID: -3071690026420472510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 205
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f58915583dd31340800000000000000
+      internalID: 4833450059114317303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_18
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 211
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3ef54ce1ac0e940800000000000000
+      internalID: 5323476993044374495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_19
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 205
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a687c319267d3c5c0800000000000000
+      internalID: -4196273609435744150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 181
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04aee2b0a60806b40800000000000000
+      internalID: 5431482343551330880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 180
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327e159b3edbb4c10800000000000000
+      internalID: 2038932042079659811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 180
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe63324609b10f90800000000000000
+      internalID: -6989101710170689859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_23
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 180
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa261efc8becd300800000000000000
+      internalID: 278356267780942510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 180
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7997c65e588a5eec0800000000000000
+      internalID: -3538236639196448361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 199
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df27ceb145e197680800000000000000
+      internalID: -8756934653850651907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c660ae76c43ed7da0800000000000000
+      internalID: -5945346015758776724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e4247d2ffd25650800000000000000
+      internalID: 6220280269438602793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 164
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9e0d2d2ae1d97f0800000000000000
+      internalID: -604293090327336480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 156
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0e48aae3a0de4f0800000000000000
+      internalID: -797970294709624624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 155
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e004ebd0b80bf20800000000000000
+      internalID: 3436399406826393236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_31
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 155
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a6a067821aed3b0800000000000000
+      internalID: -5485770100939527561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 156
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1de11d588624ab00800000000000000
+      internalID: 838837797716618523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_33
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 156
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9b242ac64ebd230800000000000000
+      internalID: 3664773877025913340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d29d726235dcd20800000000000000
+      internalID: 3300385525274848548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_35
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 139
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e496718585d8cb10800000000000000
+      internalID: 2002084803745584361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 114
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ca33c0fa725bd10800000000000000
+      internalID: 2140660830662012002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 132
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8c3b409dd8c4e00800000000000000
+      internalID: 1030354377987311819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_38
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 131
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd4d200da37aed10800000000000000
+      internalID: 2155662558519709183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_39
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 131
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe9a07f87119a6b0800000000000000
+      internalID: -5284673476504150277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_40
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 132
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d7dd6f491e607c0800000000000000
+      internalID: -4105345980388508366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_41
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 132
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda9f990181c02440800000000000000
+      internalID: 4909136353790237407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41357954d5f7a7c0800000000000000
+      internalID: -4060006246668488371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_43
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 90
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c5bd330684b7600800000000000000
+      internalID: 467046564387052572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_44
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 108
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59360963a61de7d0800000000000000
+      internalID: -2887626894977124005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 114
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5589c47467acdfe30800000000000000
+      internalID: 4539006608810481749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 106
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018c9a7366ba516c0800000000000000
+      internalID: -4173241024180008944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_47
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 115
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f91fece0f8f11170800000000000000
+      internalID: 8147566914540870134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_48
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 100
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9daea406e88a9ef0800000000000000
+      internalID: -100617520160002658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_49
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 108
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ac1dc82ab09a6b0800000000000000
+      internalID: -5284679894967399812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_50
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 110
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3c167a0042061b0800000000000000
+      internalID: -5665488746005281847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_51
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 91
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2831179c5a38e960800000000000000
+      internalID: 7631413737925195822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_52
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 92
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01fef4fb4a6069c0800000000000000
+      internalID: -3936029199856373489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_53
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 89
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4257a4260ba562f40800000000000000
+      internalID: 5703345691721102628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_54
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 88
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d97c9ec1aa47870800000000000000
+      internalID: 8679749423007767815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_55
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 99
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7527a3fc6578990800000000000000
+      internalID: -7383837616011847694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_56
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 88
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c57b1edfedf5ac0800000000000000
+      internalID: -3864124773265613673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb7a4610cfcd7470800000000000000
+      internalID: 8394093704403123136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 78
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80540c19085ee7d0800000000000000
+      internalID: -2887273514949914486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_59
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 79
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7691b39d1e239a0800000000000000
+      internalID: -6254688609348524092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_60
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 80
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1697041ee715fd360800000000000000
+      internalID: 7196560334948170081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_61
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 77
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e9df5d5ce525cc0800000000000000
+      internalID: -3723809738090242543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cid Raines(1)_62
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 79
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47014fbe6ab2b6c0800000000000000
+      internalID: -4129032923527444657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
