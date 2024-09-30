@@ -1,0 +1,2292 @@
+fileFormatVersion: 2
+guid: 8d621815b150ce34db719e97217d5034
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3686524367589253863
+    second: Mobile - Final Fantasy Record Keeper - Cloud_0
+  - first:
+      213: -5069374122588571244
+    second: Mobile - Final Fantasy Record Keeper - Cloud_1
+  - first:
+      213: 2610503368447109624
+    second: Mobile - Final Fantasy Record Keeper - Cloud_2
+  - first:
+      213: -8403109325606300860
+    second: Mobile - Final Fantasy Record Keeper - Cloud_3
+  - first:
+      213: -926080476931577090
+    second: Mobile - Final Fantasy Record Keeper - Cloud_4
+  - first:
+      213: 7513413750348660924
+    second: Mobile - Final Fantasy Record Keeper - Cloud_5
+  - first:
+      213: 6337642394958022370
+    second: Mobile - Final Fantasy Record Keeper - Cloud_6
+  - first:
+      213: 4420183865049731589
+    second: Mobile - Final Fantasy Record Keeper - Cloud_7
+  - first:
+      213: 9163469398366909393
+    second: Mobile - Final Fantasy Record Keeper - Cloud_8
+  - first:
+      213: 7890977680718047559
+    second: Mobile - Final Fantasy Record Keeper - Cloud_9
+  - first:
+      213: 3963389206788548276
+    second: Mobile - Final Fantasy Record Keeper - Cloud_10
+  - first:
+      213: -6453530296096259790
+    second: Mobile - Final Fantasy Record Keeper - Cloud_11
+  - first:
+      213: 1349645603130010924
+    second: Mobile - Final Fantasy Record Keeper - Cloud_12
+  - first:
+      213: 434306754661188523
+    second: Mobile - Final Fantasy Record Keeper - Cloud_13
+  - first:
+      213: -5651254013007223905
+    second: Mobile - Final Fantasy Record Keeper - Cloud_14
+  - first:
+      213: 8437438076661638650
+    second: Mobile - Final Fantasy Record Keeper - Cloud_15
+  - first:
+      213: 6832560014587052920
+    second: Mobile - Final Fantasy Record Keeper - Cloud_16
+  - first:
+      213: -6460294376134893273
+    second: Mobile - Final Fantasy Record Keeper - Cloud_17
+  - first:
+      213: -1729428192676908706
+    second: Mobile - Final Fantasy Record Keeper - Cloud_18
+  - first:
+      213: -296544311293650553
+    second: Mobile - Final Fantasy Record Keeper - Cloud_19
+  - first:
+      213: -5138469953064368098
+    second: Mobile - Final Fantasy Record Keeper - Cloud_20
+  - first:
+      213: 2345862242040897305
+    second: Mobile - Final Fantasy Record Keeper - Cloud_21
+  - first:
+      213: -2546842078075174009
+    second: Mobile - Final Fantasy Record Keeper - Cloud_22
+  - first:
+      213: -2320333436879576436
+    second: Mobile - Final Fantasy Record Keeper - Cloud_23
+  - first:
+      213: 2504239571692884361
+    second: Mobile - Final Fantasy Record Keeper - Cloud_24
+  - first:
+      213: 786979242703646279
+    second: Mobile - Final Fantasy Record Keeper - Cloud_25
+  - first:
+      213: 3484140780503484530
+    second: Mobile - Final Fantasy Record Keeper - Cloud_26
+  - first:
+      213: -8134289934956756768
+    second: Mobile - Final Fantasy Record Keeper - Cloud_27
+  - first:
+      213: -7928544716457854511
+    second: Mobile - Final Fantasy Record Keeper - Cloud_28
+  - first:
+      213: -1311413705833168788
+    second: Mobile - Final Fantasy Record Keeper - Cloud_29
+  - first:
+      213: 4113473842248644158
+    second: Mobile - Final Fantasy Record Keeper - Cloud_30
+  - first:
+      213: -5270077301114754401
+    second: Mobile - Final Fantasy Record Keeper - Cloud_31
+  - first:
+      213: 3907678851750587640
+    second: Mobile - Final Fantasy Record Keeper - Cloud_32
+  - first:
+      213: 6093538078660083381
+    second: Mobile - Final Fantasy Record Keeper - Cloud_33
+  - first:
+      213: 1038723201625467763
+    second: Mobile - Final Fantasy Record Keeper - Cloud_34
+  - first:
+      213: -4083331147532134731
+    second: Mobile - Final Fantasy Record Keeper - Cloud_35
+  - first:
+      213: 5283391879791225746
+    second: Mobile - Final Fantasy Record Keeper - Cloud_36
+  - first:
+      213: -1967246953697084574
+    second: Mobile - Final Fantasy Record Keeper - Cloud_37
+  - first:
+      213: 8741595493430942093
+    second: Mobile - Final Fantasy Record Keeper - Cloud_38
+  - first:
+      213: 2341998194228863925
+    second: Mobile - Final Fantasy Record Keeper - Cloud_39
+  - first:
+      213: 6402593820405006369
+    second: Mobile - Final Fantasy Record Keeper - Cloud_40
+  - first:
+      213: -2701980260772576660
+    second: Mobile - Final Fantasy Record Keeper - Cloud_41
+  - first:
+      213: 6607293628419454385
+    second: Mobile - Final Fantasy Record Keeper - Cloud_42
+  - first:
+      213: 6396900681087553994
+    second: Mobile - Final Fantasy Record Keeper - Cloud_43
+  - first:
+      213: 7995225238916141132
+    second: Mobile - Final Fantasy Record Keeper - Cloud_44
+  - first:
+      213: -672368902602674878
+    second: Mobile - Final Fantasy Record Keeper - Cloud_45
+  - first:
+      213: -156723831291493076
+    second: Mobile - Final Fantasy Record Keeper - Cloud_46
+  - first:
+      213: -7743208683493407684
+    second: Mobile - Final Fantasy Record Keeper - Cloud_47
+  - first:
+      213: -8003877491939300328
+    second: Mobile - Final Fantasy Record Keeper - Cloud_48
+  - first:
+      213: 3612755746563643076
+    second: Mobile - Final Fantasy Record Keeper - Cloud_49
+  - first:
+      213: -114631950771470733
+    second: Mobile - Final Fantasy Record Keeper - Cloud_50
+  - first:
+      213: -1640482244127000088
+    second: Mobile - Final Fantasy Record Keeper - Cloud_51
+  - first:
+      213: -3151309939530837931
+    second: Mobile - Final Fantasy Record Keeper - Cloud_52
+  - first:
+      213: 1350725201510177746
+    second: Mobile - Final Fantasy Record Keeper - Cloud_53
+  - first:
+      213: 5556368381217255191
+    second: Mobile - Final Fantasy Record Keeper - Cloud_54
+  - first:
+      213: 6890744443008400997
+    second: Mobile - Final Fantasy Record Keeper - Cloud_55
+  - first:
+      213: -4742151643620928048
+    second: Mobile - Final Fantasy Record Keeper - Cloud_56
+  - first:
+      213: -3695155717121307914
+    second: Mobile - Final Fantasy Record Keeper - Cloud_57
+  - first:
+      213: 6638641925909930311
+    second: Mobile - Final Fantasy Record Keeper - Cloud_58
+  - first:
+      213: 2261020465321427410
+    second: Mobile - Final Fantasy Record Keeper - Cloud_59
+  - first:
+      213: -6032869586635731530
+    second: Mobile - Final Fantasy Record Keeper - Cloud_60
+  - first:
+      213: -1743394387076350533
+    second: Mobile - Final Fantasy Record Keeper - Cloud_61
+  - first:
+      213: 7284094945433562085
+    second: Mobile - Final Fantasy Record Keeper - Cloud_62
+  - first:
+      213: 2043841582530185273
+    second: Mobile - Final Fantasy Record Keeper - Cloud_63
+  - first:
+      213: -8947798845937943344
+    second: Mobile - Final Fantasy Record Keeper - Cloud_64
+  - first:
+      213: 6211628016188231830
+    second: Mobile - Final Fantasy Record Keeper - Cloud_65
+  - first:
+      213: -2496340550709712305
+    second: Mobile - Final Fantasy Record Keeper - Cloud_66
+  - first:
+      213: 1243737857205510877
+    second: Mobile - Final Fantasy Record Keeper - Cloud_67
+  - first:
+      213: -7593016431029714018
+    second: Mobile - Final Fantasy Record Keeper - Cloud_68
+  - first:
+      213: -668127923894458384
+    second: Mobile - Final Fantasy Record Keeper - Cloud_69
+  - first:
+      213: -694711326043111603
+    second: Mobile - Final Fantasy Record Keeper - Cloud_70
+  - first:
+      213: -7580895815348466254
+    second: Mobile - Final Fantasy Record Keeper - Cloud_71
+  - first:
+      213: 939368269314157383
+    second: Mobile - Final Fantasy Record Keeper - Cloud_72
+  - first:
+      213: 2236510068188675790
+    second: Mobile - Final Fantasy Record Keeper - Cloud_73
+  - first:
+      213: -3776479936602000556
+    second: Mobile - Final Fantasy Record Keeper - Cloud_74
+  - first:
+      213: 3955401475865453618
+    second: Mobile - Final Fantasy Record Keeper - Cloud_75
+  - first:
+      213: -2194442227293610826
+    second: Mobile - Final Fantasy Record Keeper - Cloud_76
+  - first:
+      213: -7923544228915252260
+    second: Mobile - Final Fantasy Record Keeper - Cloud_77
+  - first:
+      213: 7375684119255966222
+    second: Mobile - Final Fantasy Record Keeper - Cloud_78
+  - first:
+      213: -8823610510063072173
+    second: Mobile - Final Fantasy Record Keeper - Cloud_79
+  - first:
+      213: 3712113748698588879
+    second: Mobile - Final Fantasy Record Keeper - Cloud_80
+  - first:
+      213: 8197094546431007290
+    second: Mobile - Final Fantasy Record Keeper - Cloud_81
+  - first:
+      213: 5218006234471769416
+    second: Mobile - Final Fantasy Record Keeper - Cloud_82
+  - first:
+      213: 665604285376494932
+    second: Mobile - Final Fantasy Record Keeper - Cloud_83
+  - first:
+      213: 7207495062811717130
+    second: Mobile - Final Fantasy Record Keeper - Cloud_84
+  - first:
+      213: 7422477886861963266
+    second: Mobile - Final Fantasy Record Keeper - Cloud_85
+  - first:
+      213: 6558390532388184248
+    second: Mobile - Final Fantasy Record Keeper - Cloud_86
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2aaf9516a292330800000000000000
+      internalID: 3686524367589253863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 241
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499fc8d1817f5a9b0800000000000000
+      internalID: -5069374122588571244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 216
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f920498bfe5a3420800000000000000
+      internalID: 2610503368447109624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 216
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443d6760798226b80800000000000000
+      internalID: -8403109325606300860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_4
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 241
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaa11b76b6e523f0800000000000000
+      internalID: -926080476931577090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 216
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb041188ff1054860800000000000000
+      internalID: 7513413750348660924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 241
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6cde01e24d3f750800000000000000
+      internalID: 6337642394958022370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_7
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 216
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502d33e5ec5a75d30800000000000000
+      internalID: 4420183865049731589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 216
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d372df1ede2b2f70800000000000000
+      internalID: 9163469398366909393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 241
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7492cb57462628d60800000000000000
+      internalID: 7890977680718047559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 216
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6af311c79c00730800000000000000
+      internalID: 3963389206788548276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 230
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23106f153647076a0800000000000000
+      internalID: -6453530296096259790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 230
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d6b3b7687eab210800000000000000
+      internalID: 1349645603130010924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 230
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3022b31b7f60600800000000000000
+      internalID: 434306754661188523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 230
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f932433ba66b291b0800000000000000
+      internalID: -5651254013007223905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_15
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 231
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5a5cd2a3dc71570800000000000000
+      internalID: 8437438076661638650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_16
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 231
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873cffff12122de50800000000000000
+      internalID: 6832560014587052920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 231
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721a6063e7c6856a0800000000000000
+      internalID: -6460294376134893273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_18
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 233
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5172feb836dff7e0800000000000000
+      internalID: -1729428192676908706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789dd21258672ebf0800000000000000
+      internalID: -296544311293650553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_20
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 214
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18849e6dcc70b8b0800000000000000
+      internalID: -5138469953064368098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_21
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 215
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f59dcb74d2e8020800000000000000
+      internalID: 2345862242040897305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 221
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783cf4daf9cc7acd0800000000000000
+      internalID: -2546842078075174009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 213
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82e45668058ccfd0800000000000000
+      internalID: -2320333436879576436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 221
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9811b375f98d0c220800000000000000
+      internalID: 2504239571692884361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_25
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 196
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ee4fe9379ebea00800000000000000
+      internalID: 786979242703646279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_26
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 209
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278cc5184972a5030800000000000000
+      internalID: 3484140780503484530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_27
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 209
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e00ed6c6623d1f80800000000000000
+      internalID: -8134289934956756768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_28
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 209
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9babd669628f190800000000000000
+      internalID: -7928544716457854511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_29
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 211
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c604c36ce2ceccde0800000000000000
+      internalID: -1311413705833168788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 191
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3677185aaef51930800000000000000
+      internalID: 4113473842248644158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 191
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9aa430ed9cecd6b0800000000000000
+      internalID: -5270077301114754401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_32
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 192
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc66ee363dda3630800000000000000
+      internalID: 3907678851750587640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_33
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5beb9dbf898909450800000000000000
+      internalID: 6093538078660083381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_34
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 192
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ba7dc9f394a6e00800000000000000
+      internalID: 1038723201625467763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_35
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b61f0ba4f71557c0800000000000000
+      internalID: -4083331147532134731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_36
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 190
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ba32c0ce0625940800000000000000
+      internalID: 5283391879791225746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_37
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 183
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b7a6b815fe2b4e0800000000000000
+      internalID: -1967246953697084574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_38
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 207
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d895b1c49c2605970800000000000000
+      internalID: 8741595493430942093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_39
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 188
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b32e9ff2f2708020800000000000000
+      internalID: 2341998194228863925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_40
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 184
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1200a5248259ad850800000000000000
+      internalID: 6402593820405006369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_41
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 184
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62888eb443a08ad0800000000000000
+      internalID: -2701980260772576660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_42
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 184
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5b4a05c82d1bb50800000000000000
+      internalID: 6607293628419454385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_43
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 189
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac19da7f64b56c850800000000000000
+      internalID: 6396900681087553994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4095d88efeb4fe60800000000000000
+      internalID: 7995225238916141132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_45
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 174
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d2952ab044ba6f0800000000000000
+      internalID: -672368902602674878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 174
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25480c718433ddf0800000000000000
+      internalID: -156723831291493076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_47
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 167
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34c7a64ab89a8490800000000000000
+      internalID: -7743208683493407684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 179
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ca633d3d38ce090800000000000000
+      internalID: -8003877491939300328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_49
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 184
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c65d26d536132230800000000000000
+      internalID: 3612755746563643076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_50
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 172
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e3b5e19deb86ef0800000000000000
+      internalID: -114631950771470733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_51
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 173
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e979723716db39e0800000000000000
+      internalID: -1640482244127000088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_52
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 184
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5505b1d6e4c4444d0800000000000000
+      internalID: -3151309939530837931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_53
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 179
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db9e211a6dbeb210800000000000000
+      internalID: 1350725201510177746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_54
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 177
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71faaa39a9f2c1d40800000000000000
+      internalID: 5556368381217255191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_55
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 170
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e338bef87d0af50800000000000000
+      internalID: 6890744443008400997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_56
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 170
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d590f2843e703eb0800000000000000
+      internalID: -4742151643620928048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_57
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 164
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa0b3bf37b28bcc0800000000000000
+      internalID: -3695155717121307914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_58
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 171
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74160e898a1312c50800000000000000
+      internalID: 6638641925909930311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_59
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 159
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d14f514222c06f10800000000000000
+      internalID: 2261020465321427410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_60
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 159
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdc1501311f64ca0800000000000000
+      internalID: -6032869586635731530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_61
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 159
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd77e6ba083ec7e0800000000000000
+      internalID: -1743394387076350533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_62
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 164
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb29c492cd461560800000000000000
+      internalID: 7284094945433562085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_63
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 176
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93842ef271f2d5c10800000000000000
+      internalID: 2043841582530185273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcf73a6b5803d380800000000000000
+      internalID: -8947798845937943344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_65
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 157
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69093c525c2243650800000000000000
+      internalID: 6211628016188231830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 158
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a6b8cce773b5dd0800000000000000
+      internalID: -2496340550709712305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 166
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2a074ddf4a24110800000000000000
+      internalID: 1243737857205510877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_68
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 159
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9305c619cf20a690800000000000000
+      internalID: -7593016431029714018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_69
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 160
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f760cf61355ab6f0800000000000000
+      internalID: -668127923894458384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_70
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 168
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f72cdcab3eb56f0800000000000000
+      internalID: -694711326043111603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_71
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 154
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdc8e6db6f3bc690800000000000000
+      internalID: -7580895815348466254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_72
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 163
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b6eb5c67e490d00800000000000000
+      internalID: 939368269314157383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece78f6be0ea90f10800000000000000
+      internalID: 2236510068188675790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_74
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 142
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453b27d918f379bc0800000000000000
+      internalID: -3776479936602000556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_75
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 145
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23424098fa864e630800000000000000
+      internalID: 3955401475865453618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_76
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 134
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc1c02cb66cb81e0800000000000000
+      internalID: -2194442227293610826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_77
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 145
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3f869218ae90290800000000000000
+      internalID: -7923544228915252260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_78
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 134
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02edbfd0a1bb5660800000000000000
+      internalID: 7375684119255966222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_79
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 139
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c89479dfc3c8580800000000000000
+      internalID: -8823610510063072173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6e50d69c3148330800000000000000
+      internalID: 3712113748698588879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_81
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 114
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3adf465f0ee1c170800000000000000
+      internalID: 8197094546431007290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_82
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 114
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845a67926051a6840800000000000000
+      internalID: 5218006234471769416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45df7de2293bc3900800000000000000
+      internalID: 665604285376494932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e264b929a260460800000000000000
+      internalID: 7207495062811717130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2007997ef40f10760800000000000000
+      internalID: 7422477886861963266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Final Fantasy Record Keeper - Cloud_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0684df075140b50800000000000000
+      internalID: 6558390532388184248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
