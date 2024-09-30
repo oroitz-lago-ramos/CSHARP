@@ -212,6 +212,22 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!114 &276503760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276503755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0051987565ac30428e0d12c7d0c0b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio: {fileID: 1859547564}
+  characterLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1001 &367816768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -301,9 +317,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: d53747f897ae1334b8397da5d58073b7, type: 3}
+  m_Resource: {fileID: 8300000, guid: d53747f897ae1334b8397da5d58073b7, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -397,7 +413,7 @@ Transform:
   m_GameObject: {fileID: 1859547563}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.956534, y: 20.800634, z: 2.539678}
+  m_LocalPosition: {x: 12.06, y: 26.07, z: 2.539678}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3162,6 +3178,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 981967202689251031, guid: afa153be08f177e4e80fd8782653f352, type: 3}
       insertIndex: -1
       addedObject: {fileID: 276503759}
+    - targetCorrespondingSourceObject: {fileID: 981967202689251031, guid: afa153be08f177e4e80fd8782653f352, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 276503760}
   m_SourcePrefab: {fileID: 100100000, guid: afa153be08f177e4e80fd8782653f352, type: 3}
 --- !u!1001 &7632235934461395547
 PrefabInstance:
