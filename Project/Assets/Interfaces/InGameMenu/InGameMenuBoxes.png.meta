@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      InGameMenuBoxes_0: 7984603605782219933
+      InGameMenuBoxes_1: -4868734749078438881
+      InGameMenuBoxes_2: -2513604691948666400
+      InGameMenuBoxes_3: 3552263579791549345
+      InGameMenuBoxes_4: -4664885500370527234
+      InGameMenuBoxes_5: -3273728046712908024
+      InGameMenuBoxes_6: 5381163305882620136
+      InGameMenuBoxes_7: -883919531448105537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
