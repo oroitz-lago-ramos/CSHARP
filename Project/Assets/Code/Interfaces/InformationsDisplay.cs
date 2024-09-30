@@ -45,6 +45,26 @@ public class InformationsDisplay : MonoBehaviour
                 UpdateSelectedCharacterBackgroundPosition();
             }
         }
+        if (Input.GetKeyDown(KeyCode.Tab)) {
+            if (selectedCharacterIndex < 2)
+            {
+                selectedCharacterIndex += 1;
+                UpdateSelectedCharacterBackgroundPosition();
+            }
+            else
+            {
+                selectedCharacterIndex = 0;
+                UpdateSelectedCharacterBackgroundPosition();
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            Team.main.Swap(selectedCharacterIndex);
+            selectedCharacterIndex = 0;
+            SpriteAttribution();
+            UpdateSelectedCharacterBackgroundPosition();
+
+        }
     }
 
     private void TextAttribution()

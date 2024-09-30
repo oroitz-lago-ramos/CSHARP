@@ -15,4 +15,14 @@ public class Team : MonoBehaviour{
         }
     }
 
+    public void Swap(int index)
+    {
+        if (index < members.Length)
+        {
+            Entity temp = members[0];
+            members[0] = members[index];
+            members[index] = temp;
+        }
+    }
+
 }
