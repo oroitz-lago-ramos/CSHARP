@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss-Maliketh_0: -2348499086464364399
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
