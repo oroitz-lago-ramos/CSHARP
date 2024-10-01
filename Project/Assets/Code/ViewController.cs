@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ViewController : MonoBehaviour
 {
-    public enum ViewType { IngameMenu }
+    public enum ViewType { IngameMenu, Inventory }
 
     public GameObject[] views;
     private bool[] isViewVisible;
@@ -23,6 +23,10 @@ public class ViewController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             ToggleView(ViewType.IngameMenu);
+        }
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            ToggleView(ViewType.Inventory);
         }
     }
 
