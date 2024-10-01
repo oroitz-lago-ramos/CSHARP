@@ -6369,6 +6369,8 @@ GameObject:
   - component: {fileID: 2973884921575186529}
   - component: {fileID: 8747886752253524882}
   - component: {fileID: 2362387144213966023}
+  - component: {fileID: 1608308117599740674}
+  - component: {fileID: 5860896803962363444}
   m_Layer: 0
   m_Name: TilemapWater
   m_TagString: Untagged
@@ -6996,6 +6998,60 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!114 &1608308117599740674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981967202689251031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0051987565ac30428e0d12c7d0c0b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio: {fileID: 2275635696065625653}
+  characterLayer:
+    serializedVersion: 2
+    m_Bits: 8
+--- !u!19719996 &5860896803962363444
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981967202689251031}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &1445962313556061730
 GameObject:
   m_ObjectHideFlags: 0
@@ -53975,7 +54031,7 @@ MonoBehaviour:
   characterLayer:
     serializedVersion: 2
     m_Bits: 8
-  audio: {fileID: 1299889720266316027}
+  source: {fileID: 1299889720266316027}
   clip: {fileID: 8300000, guid: 50158d3b3160c48448e8f7f44b37859b, type: 3}
 --- !u!1 &4405970197216497338
 GameObject:
@@ -76534,7 +76590,7 @@ MonoBehaviour:
   characterLayer:
     serializedVersion: 2
     m_Bits: 8
-  audio: {fileID: 1299889720266316027}
+  source: {fileID: 1299889720266316027}
   clip: {fileID: 8300000, guid: 2d7621539cc854244b1046fe399ead90, type: 3}
 --- !u!1 &7736254008218652740
 GameObject:
