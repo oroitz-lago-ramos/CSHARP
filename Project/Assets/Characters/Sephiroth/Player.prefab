@@ -288,6 +288,51 @@ MonoBehaviour:
   members:
   - name: Sephiroth
     sprite: {fileID: 9038129564033292187, guid: e3bbb3b8828bbcf4a8debd4c034f17d8, type: 3}
+    classType: 0
+    experience: 0
+    level: 0
+    baseStats:
+      health: 100
+      mana: 100
+      attack: 10
+      defense: 10
+      speed: 10
+      accuracy: 10
+      criticalRate: 10
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+  - name: Cloud
+    sprite: {fileID: 3686524367589253863, guid: 8d621815b150ce34db719e97217d5034, type: 3}
+    classType: 0
+    experience: 0
+    level: 0
+    baseStats:
+      health: 100
+      mana: 100
+      attack: 10
+      defense: 10
+      speed: 10
+      accuracy: 10
+      criticalRate: 10
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+  - name: Cid
+    sprite: {fileID: -7973174442484531416, guid: 010e8c0504be0b5449b3cf46785aedad, type: 3}
+    classType: 0
+    experience: 0
+    level: 0
     baseStats:
       health: 100
       mana: 100
@@ -334,3 +379,6 @@ MonoBehaviour:
   interactableLayer:
     serializedVersion: 2
     m_Bits: 128
+  dangerLayer:
+    serializedVersion: 2
+    m_Bits: 256
