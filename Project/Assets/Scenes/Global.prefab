@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4785499460679849342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8751552777382675033}
+  - component: {fileID: 3354766775501203601}
+  m_Layer: 0
+  m_Name: Global
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8751552777382675033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785499460679849342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.455084, y: -4.8464108, z: 1.5793297}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3354766775501203601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785499460679849342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e09f2cb0b6e5647bd5f5530bf0d185, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knight:
+  - name: Eclipse Assault
+    animation: 
+    voice: {fileID: 0}
+    sound: {fileID: 0}
+    isActive: 0
+    value: 90
+    duration: 0
+    cooldown: 0
+    minimumLevel: 0
+    cost: 0
+    target: 0
+    statTarget: 0
+  - name: Ultima Arma
+    animation: 
+    voice: {fileID: 0}
+    sound: {fileID: 0}
+    isActive: 0
+    value: 150
+    duration: 0
+    cooldown: 0
+    minimumLevel: 0
+    cost: 50
+    target: 0
+    statTarget: 0
+  - name: Bonk
+    animation: 
+    voice: {fileID: 0}
+    sound: {fileID: 0}
+    isActive: 0
+    value: 280
+    duration: 0
+    cooldown: 0
+    minimumLevel: 0
+    cost: 100
+    target: 0
+    statTarget: 0
+  archer:
+  - name: Deathwind Arrow
+    animation: 
+    voice: {fileID: 0}
+    sound: {fileID: 0}
+    isActive: 0
+    value: 80
+    duration: 0
+    cooldown: 0
+    minimumLevel: 0
+    cost: 0
+    target: 0
+    statTarget: 0
+  - name: Celestial Sniper
+    animation: 
+    voice: {fileID: 0}
+    sound: {fileID: 0}
+    isActive: 0
+    value: 130
+    duration: 0
+    cooldown: 0
+    minimumLevel: 0
+    cost: 80
+    target: 0
+    statTarget: 0
+  - name: Curtain Call
+    animation: 
+    voice: {fileID: 0}
+    sound: {fileID: 0}
+    isActive: 0
+    value: 250
+    duration: 0
+    cooldown: 0
+    minimumLevel: 0
+    cost: 100
+    target: 0
+    statTarget: 0
+  mage:
+  - name: Scarlet Rot
+    animation: 
+    voice: {fileID: 0}
+    sound: {fileID: 0}
+    isActive: 0
+    value: 100
+    duration: 0
+    cooldown: 0
+    minimumLevel: 0
+    cost: 0
+    target: 0
+    statTarget: 0
+  - name: Azur Comet
+    animation: 
+    voice: {fileID: 0}
+    sound: {fileID: 0}
+    isActive: 0
+    value: 150
+    duration: 0
+    cooldown: 0
+    minimumLevel: 0
+    cost: 100
+    target: 0
+    statTarget: 0
+  - name: Diamond Storm
+    animation: 
+    voice: {fileID: 0}
+    sound: {fileID: 0}
+    isActive: 0
+    value: 300
+    duration: 0
+    cooldown: 0
+    minimumLevel: 0
+    cost: 200
+    target: 0
+    statTarget: 0
