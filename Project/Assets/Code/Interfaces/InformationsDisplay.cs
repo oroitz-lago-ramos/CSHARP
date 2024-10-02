@@ -108,23 +108,16 @@ public class InformationsDisplay : MonoBehaviour
 
     private void UpdateSelectedCharacterBackgroundPosition()
     {
-        if (selectedCharacterIndex == 0)
+        for (int i = 0; i < Team.main.members.Length; i++)
         {
-            selectedCharacterBackground[0].gameObject.SetActive(true);
-            selectedCharacterBackground[1].gameObject.SetActive(false);
-            selectedCharacterBackground[2].gameObject.SetActive(false);
-        }
-        else if (selectedCharacterIndex == 1)
-        {
-            selectedCharacterBackground[0].gameObject.SetActive(false);
-            selectedCharacterBackground[1].gameObject.SetActive(true);
-            selectedCharacterBackground[2].gameObject.SetActive(false);
-        }
-        else if (selectedCharacterIndex == 2)
-        {
-            selectedCharacterBackground[0].gameObject.SetActive(false);
-            selectedCharacterBackground[1].gameObject.SetActive(false);
-            selectedCharacterBackground[2].gameObject.SetActive(true);
+            if (i == selectedCharacterIndex)
+            {
+                selectedCharacterBackground[i].gameObject.SetActive(true);
+            }
+            else
+            {
+                selectedCharacterBackground[i].gameObject.SetActive(false);
+            }
         }
     }
 }

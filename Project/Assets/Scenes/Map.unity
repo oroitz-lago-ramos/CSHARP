@@ -439,10 +439,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5406613973436091565, guid: 22c91ffaf55cae44cba8ce3e900f090b, type: 3}
-      propertyPath: views.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5406613973436091565, guid: 22c91ffaf55cae44cba8ce3e900f090b, type: 3}
       propertyPath: 'views.Array.data[0]'
       value: 
       objectReference: {fileID: 1408461599}
@@ -450,8 +446,7 @@ PrefabInstance:
       propertyPath: 'views.Array.data[1]'
       value: 
       objectReference: {fileID: 1882068047}
-    m_RemovedComponents:
-    - {fileID: 1662015499223609826, guid: 22c91ffaf55cae44cba8ce3e900f090b, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -781,10 +776,6 @@ PrefabInstance:
     - target: {fileID: 376513632456698578, guid: afa153be08f177e4e80fd8782653f352, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1299889720266316027, guid: afa153be08f177e4e80fd8782653f352, type: 3}
-      propertyPath: Loop
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3482554192027025386, guid: afa153be08f177e4e80fd8782653f352, type: 3}
       propertyPath: m_Name
