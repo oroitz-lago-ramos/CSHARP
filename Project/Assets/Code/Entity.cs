@@ -8,6 +8,7 @@ public enum ClassType{
 public class Entity {
     public string name;
     public Sprite sprite;
+    public Sprite battleSprite;
     public ClassType classType;
     public int experience;
     public int level;

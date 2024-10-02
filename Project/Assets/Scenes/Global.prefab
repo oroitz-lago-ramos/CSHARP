@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8751552777382675033}
   - component: {fileID: 3354766775501203601}
+  - component: {fileID: 2184456873543053750}
   m_Layer: 0
   m_Name: Global
   m_TagString: Untagged
@@ -155,3 +156,167 @@ MonoBehaviour:
     cost: 200
     target: 0
     statTarget: 0
+--- !u!114 &2184456873543053750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785499460679849342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b203d2180209640b98801fdc9b871c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mobs:
+  - name: Morbol
+    sprite: {fileID: 0}
+    battleSprite: {fileID: -7556373846540638563, guid: 8e2cc6bda16568e4f8b4ff57cc91b8f4, type: 3}
+    classType: 0
+    experience: 100
+    level: 3
+    baseStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    difficulty: 0
+    thinkTime: 0
+    thinking: 0
+  - name: Simili
+    sprite: {fileID: 0}
+    battleSprite: {fileID: 8482816491401762056, guid: 0d0787e5e547b794e812c0b2bf3ac2e4, type: 3}
+    classType: 0
+    experience: 100
+    level: 3
+    baseStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    difficulty: 0
+    thinkTime: 0
+    thinking: 0
+  - name: Berserker
+    sprite: {fileID: 0}
+    battleSprite: {fileID: 8703389998563471379, guid: a6320ce96c8739f41a2b5cf398573b50, type: 3}
+    classType: 0
+    experience: 100
+    level: 3
+    baseStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    difficulty: 0
+    thinkTime: 0
+    thinking: 0
+  - name: Angara
+    sprite: {fileID: 0}
+    battleSprite: {fileID: 4664444710695154931, guid: e593b487003d31544ad9cfe7ffe65c8d, type: 3}
+    classType: 0
+    experience: 100
+    level: 3
+    baseStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    difficulty: 0
+    thinkTime: 0
+    thinking: 0
+  bosses:
+  - name: Maliketh
+    sprite: {fileID: 0}
+    battleSprite: {fileID: -2348499086464364399, guid: 3f776c504a1d2b1419aed4af7e13390d, type: 3}
+    classType: 0
+    experience: 1000
+    level: 5
+    baseStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    difficulty: 0
+    thinkTime: 0
+    thinking: 0
+  - name: Pampa
+    sprite: {fileID: 0}
+    battleSprite: {fileID: 5205578393163789068, guid: 028d1db294725bf4f85fcd03f202b352, type: 3}
+    classType: 0
+    experience: 1000
+    level: 5
+    baseStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    difficulty: 0
+    thinkTime: 0
+    thinking: 0

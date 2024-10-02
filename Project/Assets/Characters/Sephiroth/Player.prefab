@@ -288,6 +288,7 @@ MonoBehaviour:
   members:
   - name: Sephiroth
     sprite: {fileID: 9038129564033292187, guid: e3bbb3b8828bbcf4a8debd4c034f17d8, type: 3}
+    battleSprite: {fileID: 2462163826681699835, guid: 326c4c90ab6c2be46af438035fec2284, type: 3}
     classType: 0
     experience: 0
     level: 0
@@ -309,6 +310,7 @@ MonoBehaviour:
       criticalRate: 0
   - name: Cloud
     sprite: {fileID: 3686524367589253863, guid: 8d621815b150ce34db719e97217d5034, type: 3}
+    battleSprite: {fileID: 3349391187094723686, guid: d535a5816066e854cb257599bb3d42eb, type: 3}
     classType: 0
     experience: 0
     level: 0
@@ -330,6 +332,7 @@ MonoBehaviour:
       criticalRate: 0
   - name: Cid
     sprite: {fileID: -7973174442484531416, guid: 010e8c0504be0b5449b3cf46785aedad, type: 3}
+    battleSprite: {fileID: 7018229299051819269, guid: 74679af21d7f32f48a34950e0993f021, type: 3}
     classType: 0
     experience: 0
     level: 0

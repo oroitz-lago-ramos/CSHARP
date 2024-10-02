@@ -12,6 +12,7 @@ public class Music : MonoBehaviour
         {
             source.clip = clip;
             source.Play();
+
         }
         
     }
