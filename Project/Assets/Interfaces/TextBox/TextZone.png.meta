@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d11e3bca91858e4d9fb3d5383a06c0e
+guid: 3942ce7efda8363458079a2e63c2f601
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1180697905433018481
-    second: SelectedItemBoxMana_0
+      213: 6151230362476548314
+    second: TextZone_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SelectedItemBoxMana_0
+      name: TextZone_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 22
-        height: 22
+        width: 252
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17002684d7ea26010800000000000000
-      internalID: 1180697905433018481
+      spriteID: ad0130f8c6f8d5550800000000000000
+      internalID: 6151230362476548314
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SelectedItemBoxMana_0: 1180697905433018481
+      TextZone_0: 6151230362476548314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
