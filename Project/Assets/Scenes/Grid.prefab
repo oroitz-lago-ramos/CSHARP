@@ -131358,6 +131358,7 @@ MonoBehaviour:
   lineIndex: 0
   characterIndex: 0
   lastTick: 0
+  lineDone: 0
 --- !u!61 &6875876522299438556
 BoxCollider2D:
   m_ObjectHideFlags: 0

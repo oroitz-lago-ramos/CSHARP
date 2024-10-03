@@ -8,7 +8,7 @@ public class Script : MonoBehaviour{
     public bool repeatable;
     public string[] content;
     public UnityEvent actions;
-    public bool done;
+    [HideInInspector] public bool done;
     [HideInInspector] public int lineIndex;
     [HideInInspector] public int characterIndex;
     [HideInInspector] public float lastTick;
