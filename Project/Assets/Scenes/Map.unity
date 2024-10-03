@@ -1129,46 +1129,6 @@ PrefabInstance:
       propertyPath: textBox
       value: 
       objectReference: {fileID: 1200858383}
-    - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
-      propertyPath: text.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
-      propertyPath: content.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
-      propertyPath: 'text.Array.data[1]'
-      value: qdkjlqzlidjlqzdkjlqz
-      objectReference: {fileID: 0}
-    - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
-      propertyPath: 'text.Array.data[2]'
-      value: dqzdknqzdqzjdqgzdhqz
-      objectReference: {fileID: 0}
-    - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
-      propertyPath: 'content.Array.data[0]'
-      value: AAAAAAaaaaaA
-      objectReference: {fileID: 0}
-    - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
-      propertyPath: 'content.Array.data[1]'
-      value: BBBBBBBBBBBB
-      objectReference: {fileID: 0}
-    - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
-      propertyPath: 'content.Array.data[2]'
-      value: CCCCCCCCCCCCCCC
-      objectReference: {fileID: 0}
-    - target: {fileID: 8974268482453748858, guid: afa153be08f177e4e80fd8782653f352, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8974268482453748858, guid: afa153be08f177e4e80fd8782653f352, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

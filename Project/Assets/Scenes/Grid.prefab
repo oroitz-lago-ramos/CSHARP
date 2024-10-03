@@ -131345,14 +131345,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textBox: {fileID: 0}
   text: {fileID: 0}
+  speed: 10
+  repeatable: 1
   content:
-  - AAAAAAaaaaaA
-  - BBBBBBBBBBBB
-  - CCCCCCCCCCCCCCC
+  - AaAaAaAaAaAaAaAaAaAaAaAaAa
+  - BbBbBbBbBbBbBbBbBbBbBbBbBb
+  - CcCcCcCcCcCcCcCcCcCcCcCcCc
   actions:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
+  done: 0
   lineIndex: 0
   characterIndex: 0
   lastTick: 0

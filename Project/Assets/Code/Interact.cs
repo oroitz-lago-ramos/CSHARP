@@ -7,22 +7,20 @@ public class Interact : MonoBehaviour{
         if(!this.pressed){return;}
         this.pressed = false;
         var bounds = this.collider.bounds;
-        bounds.min -= Vector3.up * bounds.min.y * 2;
-        bounds.max += Vector3.up * bounds.max.y * 2;
+        Physics2D.OverlapArea(bounds.min,bounds.max,this.interactsWith);
+        if(CheckAxis(Vector3.right * bounds.extents.x)){return;}
+        CheckAxis(Vector3.up * bounds.extents.y * 2);
+    }
+    public bool CheckAxis(Vector3 directionalExtent){
+        var bounds = this.collider.bounds;
+        bounds.min -= directionalExtent;
+        bounds.max += directionalExtent;
         var results = Physics2D.OverlapArea(bounds.min,bounds.max,this.interactsWith);
-        if(results != null){
-            var script = results.gameObject.GetComponent<Script>();
-            if(script != null){script.enabled = true;}
-            return;
-        }
-        bounds = this.collider.bounds;
-        bounds.min -= Vector3.right * bounds.min.x * 2;
-        bounds.max += Vector3.right * bounds.max.x * 2;
-        results = Physics2D.OverlapArea(bounds.min,bounds.max,this.interactsWith);
-        if(results != null){
-            var script = results.gameObject.GetComponent<Script>();
-            if(script != null){script.enabled = true;}
-        }
+        if(results == null){return false;}
+        var script = results.gameObject.GetComponent<Script>();
+        if(script == null || !script.repeatable && script.done){return false;}
+        script.enabled = true;
+        return true;
     }
     public void Update(){
         if(!Input.GetKeyDown(KeyCode.E)){return;}
