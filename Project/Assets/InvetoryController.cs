@@ -14,6 +14,7 @@ public class InvetoryController : MonoBehaviour
     
     private void Update()
     {
+        UpdateItems();
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if (selectedItemIndex > 0)
@@ -45,29 +46,17 @@ public class InvetoryController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            selectedItemIndex = 0;
+            var itemTypes = Inventory.main.items.Keys.ToArray();
+            itemTypes[selectedItemIndex].Use(ref Team.main.members.First().baseStats.health);
+            Inventory.main.OnItemUsed(itemTypes[selectedItemIndex]);
+            selectedItemIndex = Inventory.main.items.Count == 0 ? -1 : 0;
         }
     }
 
     private void OnEnable()
     {
         selectedItemIndex = Inventory.main.items.Count == 0 ? -1 : 0;
-        itemsImages.ToList().ForEach(item => item.enabled = false);
-        selectedItemsBackgrounds.ToList().ForEach(item => item.gameObject.SetActive(false));
-
-        var items = Inventory.main.items;
-        var itemTypes = items.Keys.ToArray();
-        var itemAmounts = items.Values.ToArray();
-        for (int i = 0; i < items.Count; i++)
-        {
-            itemsImages[i].enabled = true;
-            itemsImages[i].sprite = itemTypes[i].sprite;
-            itemsImages[i].preserveAspect = true;
-        }
-        if (selectedItemIndex >= 0)
-        {
-            selectedItemsBackgrounds[selectedItemIndex].gameObject.SetActive(true);
-        }
+        UpdateItems();
     }
 
     private void UpdateSelectedItem()
@@ -82,6 +71,30 @@ public class InvetoryController : MonoBehaviour
             {
                 selectedItemsBackgrounds[i].gameObject.SetActive(false);
             }
+        }
+    }
+
+    private void UpdateItems()
+    {
+        itemsImages.ToList().ForEach(item => item.enabled = false);
+        itemsText.ToList().ForEach(item => item.enabled = false);
+        selectedItemsBackgrounds.ToList().ForEach(item => item.gameObject.SetActive(false));
+
+        var items = Inventory.main.items;
+        var itemTypes = items.Keys.ToArray();
+        var itemAmounts = items.Values.ToArray();
+        for (int i = 0; i < items.Count; i++)
+        {
+            itemsImages[i].enabled = true;
+            itemsImages[i].sprite = itemTypes[i].sprite;
+            itemsImages[i].preserveAspect = true;
+
+            itemsText[i].enabled = true;
+            itemsText[i].text = itemAmounts[i].ToString();
+        }
+        if (selectedItemIndex >= 0)
+        {
+            selectedItemsBackgrounds[selectedItemIndex].gameObject.SetActive(true);
         }
     }
 
