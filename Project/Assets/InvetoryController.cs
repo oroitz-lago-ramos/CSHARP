@@ -3,6 +3,7 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class InvetoryController : MonoBehaviour
 {
@@ -46,9 +47,13 @@ public class InvetoryController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            var itemTypes = Inventory.main.items.Keys.ToArray();
-            itemTypes[selectedItemIndex].Use(ref Team.main.members.First().baseStats.health);
-            Inventory.main.OnItemUsed(itemTypes[selectedItemIndex]);
+            var itemTag = Inventory.main.items.Keys.ToArray()[this.selectedItemIndex];
+            Enum.TryParse<ItemType>(itemTag,false,out var itemType);
+            var itemProfile = Items.main.list[(int)itemType];
+            itemProfile.Use(ref Team.main.members.First().baseStats.health);
+            if(Inventory.main.items.ContainsKey(itemTag)){
+                Inventory.main.items[itemTag] -= 1;
+            }
             selectedItemIndex = Inventory.main.items.Count == 0 ? -1 : 0;
         }
     }
@@ -85,8 +90,9 @@ public class InvetoryController : MonoBehaviour
         var itemAmounts = items.Values.ToArray();
         for (int i = 0; i < items.Count; i++)
         {
+            Enum.TryParse<ItemType>(itemTypes[i],out var itemType);
             itemsImages[i].enabled = true;
-            itemsImages[i].sprite = itemTypes[i].sprite;
+            itemsImages[i].sprite = Items.main.list[(int)itemType].sprite;
             itemsImages[i].preserveAspect = true;
 
             itemsText[i].enabled = true;

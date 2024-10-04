@@ -71,7 +71,6 @@
     <Compile Include="Assets\Code\ViewController.cs" />
     <Compile Include="Assets\Code\Move.cs" />
     <Compile Include="Assets\Code\Warp.cs" />
-    <Compile Include="Assets\Code\Item.cs" />
     <Compile Include="Assets\Code\Stats.cs" />
     <Compile Include="Assets\Code\Bot.cs" />
     <Compile Include="Assets\Code\Team.cs" />
@@ -97,6 +96,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Code\Items.cs" />
     <Compile Include="Assets\Code\Interfaces\InformationsDisplay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
@@ -108,6 +108,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Chest.cs" />
     <Compile Include="Assets\Code\Skills.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />

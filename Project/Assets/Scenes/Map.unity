@@ -843,6 +843,67 @@ Transform:
   - {fileID: 1200858384}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1715120728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6411077482621475787, guid: afa153be08f177e4e80fd8782653f352, type: 3}
+  m_PrefabInstance: {fileID: 568160766198303854}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1715120732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715120728}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5447037e85ef92a45b0f1a9b8e776034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content:
+  - type: Money
+    quantity: 30
+  - type: HealthPotion
+    quantity: 3
+--- !u!114 &1715120733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715120728}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4521805110c6ef342bf3ec07a4e261d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 1200858383}
+  text: {fileID: 464643392}
+  speed: 30
+  repeatable: 0
+  content:
+  - You found 30 coins!
+  - You found 3 Health Potions!
+  actions:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1715120732}
+        m_TargetAssemblyTypeName: Chest, Assembly-CSharp
+        m_MethodName: OnEnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  done: 0
+  lineIndex: 0
+  characterIndex: 0
+  lastTick: 0
+  lineDone: 0
 --- !u!1001 &1722219326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -900,6 +961,36 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7498b63523ad4544389cc65569450b22, type: 3}
+--- !u!1 &1816074251 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4785499460679849342, guid: ee95005f0361c834eb83bf337a6f9302, type: 3}
+  m_PrefabInstance: {fileID: 178805632645341018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1816074255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816074251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db216dc49617f5a4b82df305c522c7b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - name: Health Potion
+    sprite: {fileID: 4902874479080691499, guid: d03d44c43ccc55348af359966821e335, type: 3}
+    value: 30
+    description: Replenishes 30hp.
+  - name: Mana Potion
+    sprite: {fileID: 4072992187217914624, guid: cd0aae7deeff0e546bd44f71950a2594, type: 3}
+    value: 30
+    description: Replenishes 30 mana.
+  - name: Money
+    sprite: {fileID: -7761106982459970301, guid: ae9ec6a490785af419ba2ac386abf12e, type: 3}
+    value: 10
+    description: MONEY
 --- !u!1 &1882068047 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4994675434975736632, guid: 75b0f66e23e4760419991f6a01cc3348, type: 3}
@@ -1119,7 +1210,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4785499460679849342, guid: ee95005f0361c834eb83bf337a6f9302, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1816074255}
   m_SourcePrefab: {fileID: 100100000, guid: ee95005f0361c834eb83bf337a6f9302, type: 3}
 --- !u!1001 &568160766198303854
 PrefabInstance:
@@ -1173,10 +1267,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grid
       objectReference: {fileID: 0}
+    - target: {fileID: 6411077482621475787, guid: afa153be08f177e4e80fd8782653f352, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
       propertyPath: text
       value: 
       objectReference: {fileID: 464643392}
+    - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
+      propertyPath: speed
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
       propertyPath: textBox
       value: 
@@ -1184,7 +1286,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6411077482621475787, guid: afa153be08f177e4e80fd8782653f352, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1715120732}
+    - targetCorrespondingSourceObject: {fileID: 6411077482621475787, guid: afa153be08f177e4e80fd8782653f352, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1715120733}
   m_SourcePrefab: {fileID: 100100000, guid: afa153be08f177e4e80fd8782653f352, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8751552777382675033}
   - component: {fileID: 3354766775501203601}
   - component: {fileID: 2184456873543053750}
+  - component: {fileID: 1811739308559564205}
   m_Layer: 0
   m_Name: Global
   m_TagString: Untagged
@@ -345,3 +346,28 @@ MonoBehaviour:
     difficulty: 0
     thinkTime: 0
     thinking: 0
+--- !u!114 &1811739308559564205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785499460679849342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db216dc49617f5a4b82df305c522c7b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - name: Health Potion
+    sprite: {fileID: 4902874479080691499, guid: d03d44c43ccc55348af359966821e335, type: 3}
+    value: 30
+    description: Replenishes 30hp.
+  - name: Mana Potion
+    sprite: {fileID: 4072992187217914624, guid: cd0aae7deeff0e546bd44f71950a2594, type: 3}
+    value: 30
+    description: Replenishes 30 mana.
+  - name: Money
+    sprite: {fileID: -7761106982459970301, guid: ae9ec6a490785af419ba2ac386abf12e, type: 3}
+    value: 10
+    description: MONEY
