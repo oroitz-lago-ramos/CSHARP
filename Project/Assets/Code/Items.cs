@@ -10,7 +10,14 @@ public class Item{
     public Sprite sprite;
     public float value;
     public string description;
-    public void Use(ref float stat) => stat += this.value;
+    public void Use(string tag) {
+        if (tag == "HealthPotion")
+        { }
+        else if (tag == "ManaPotion")
+            { }
+        else if (tag == "Money")
+            { }
+    }
 }
 public class Items : MonoBehaviour{
     public static Items main;
