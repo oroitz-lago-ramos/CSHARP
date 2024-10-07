@@ -1158,6 +1158,14 @@ PrefabInstance:
       propertyPath: textBox
       value: 
       objectReference: {fileID: 1200858383}
+    - target: {fileID: 5588207459636380379, guid: afa153be08f177e4e80fd8782653f352, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 464643392}
+    - target: {fileID: 5588207459636380379, guid: afa153be08f177e4e80fd8782653f352, type: 3}
+      propertyPath: textBox
+      value: 
+      objectReference: {fileID: 1200858383}
     - target: {fileID: 8084051205253754679, guid: afa153be08f177e4e80fd8782653f352, type: 3}
       propertyPath: text
       value: 
