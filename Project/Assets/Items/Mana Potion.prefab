@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 8080142499653540882}
   - component: {fileID: 2246113977648345957}
   - component: {fileID: 4752306685104968608}
-  - component: {fileID: 1470917975798400552}
   m_Layer: 6
   m_Name: Mana Potion
-  m_TagString: Untagged
+  m_TagString: ManaPotion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135,18 +134,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1470917975798400552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662746958844626605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db216dc49617f5a4b82df305c522c7b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprite: {fileID: 6997616985800771554, guid: fd054e481f9601744bb33093e6b3c261, type: 3}
-  value: 30
-  description: Replenishes 30hp.

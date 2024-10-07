@@ -56765,13 +56765,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4405970197216497338}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.005451389, w: 0.99998516}
-  m_LocalPosition: {x: -0.4, y: -21.5, z: 0}
-  m_LocalScale: {x: 52.682655, y: 59.1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5, y: -21.5, z: 0}
+  m_LocalScale: {x: 53, y: 59, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 768350306226086727}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.625}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1740439573052194034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61240,7 +61240,9 @@ GameObject:
   - component: {fileID: 8324607137428116813}
   - component: {fileID: 7257555021120748105}
   - component: {fileID: 9007691779371891963}
-  m_Layer: 0
+  - component: {fileID: 4042510061736853558}
+  - component: {fileID: 3721274736734295561}
+  m_Layer: 7
   m_Name: Demon Chest_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61363,6 +61365,62 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.16, y: 0.14}
   m_EdgeRadius: 0
+--- !u!114 &4042510061736853558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6411077482621475787}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5447037e85ef92a45b0f1a9b8e776034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content:
+  - type: Money
+    quantity: 30
+  - type: HealthPotion
+    quantity: 3
+--- !u!114 &3721274736734295561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6411077482621475787}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4521805110c6ef342bf3ec07a4e261d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 0}
+  text: {fileID: 0}
+  speed: 30
+  repeatable: 0
+  content:
+  - You found 30 coins!
+  - You found 3 Health Potions!
+  actions:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4042510061736853558}
+        m_TargetAssemblyTypeName: Chest, Assembly-CSharp
+        m_MethodName: OnEnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  done: 0
+  lineIndex: 0
+  characterIndex: 0
+  lastTick: 0
+  lineDone: 0
 --- !u!1 &6528890882773215945
 GameObject:
   m_ObjectHideFlags: 0

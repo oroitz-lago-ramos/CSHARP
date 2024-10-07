@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 1270973489748127227}
   - component: {fileID: 3330202776294241054}
   - component: {fileID: 7898590298949585338}
-  - component: {fileID: 6310037185976994252}
   m_Layer: 6
   m_Name: Health Potion
-  m_TagString: Untagged
+  m_TagString: HealthPotion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135,18 +134,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6310037185976994252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7740939539475593247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db216dc49617f5a4b82df305c522c7b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprite: {fileID: 4902874479080691499, guid: d03d44c43ccc55348af359966821e335, type: 3}
-  value: 30
-  description: Replenishes 30hp.

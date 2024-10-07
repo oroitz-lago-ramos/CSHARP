@@ -10,9 +10,9 @@ public class CollisionManager : MonoBehaviour{
         if ((layer & this.itemsLayer) != 0)
         {
             var inventory = this.GetComponent<Inventory>();
-            var item = collision.gameObject.GetComponent<Item>();
-            inventory.items[item] = inventory.items.ContainsKey(item) ? inventory.items[item] + 1 : 1;
-            GameObject.Destroy(item.gameObject);
+            var itemType = collision.gameObject.tag;
+            inventory.items[itemType] = inventory.items.ContainsKey(itemType) ? inventory.items[itemType] + 1 : 1;
+            GameObject.Destroy(collision.gameObject);
         }
         if ((layer & this.dangerLayer) != 0 && Random.Range(0, 50) == 0)
         {

@@ -76,8 +76,8 @@ public class InformationsDisplay : MonoBehaviour
         if (selectedCharacterIndex < Team.main.members.Length)
         {
             characterName.text = Team.main.members[selectedCharacterIndex].name;
-            healthText.text = "Health: " + Team.main.members[selectedCharacterIndex].baseStats.health;
-            manaText.text = "Mana: " + Team.main.members[selectedCharacterIndex].baseStats.mana;
+            healthText.text = "Health: " + Team.main.members[selectedCharacterIndex].currentStats.health;
+            manaText.text = "Mana: " + Team.main.members[selectedCharacterIndex].currentStats.mana;
             attackText.text = "Attack: " + Team.main.members[selectedCharacterIndex].baseStats.attack;
             defenseText.text = "Defense: " + Team.main.members[selectedCharacterIndex].baseStats.defense;
             speedText.text = "Speed: " + Team.main.members[selectedCharacterIndex].baseStats.speed;
