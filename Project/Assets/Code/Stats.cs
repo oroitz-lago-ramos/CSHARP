@@ -1,3 +1,4 @@
+using UnityEngine;
 [System.Serializable]
 public class Stats{
     public float health;
@@ -6,5 +7,5 @@ public class Stats{
     public float defense;
     public float speed;
     public float accuracy;
-    public float criticalRate;
+    [Range(0,100)] public float criticalRate;
 }
