@@ -5964,7 +5964,7 @@ MonoBehaviour:
     m_Bits: 0
   dangerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!1 &617154578164527024
 GameObject:
   m_ObjectHideFlags: 0
