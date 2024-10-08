@@ -1,13 +1,16 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Events;
 
-public class Music : MonoBehaviour
+public class AreaCheck : MonoBehaviour
 {
     public LayerMask characterLayer;
     public AudioSource source;
     public AudioClip clip;
     public float volume = 1.0f;
-    public float fadeDuration = 3.0f;  
+    public float fadeDuration = 3.0f;
+    public UnityEvent actions;
+
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,6 +20,7 @@ public class Music : MonoBehaviour
             source.clip = clip;
             source.volume = 0; 
             source.Play();
+            actions.Invoke();
 
             
             StartCoroutine(StartFade(source, fadeDuration, volume));
