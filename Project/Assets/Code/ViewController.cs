@@ -1,13 +1,14 @@
+using System;
 using UnityEngine;
-public enum ViewType { None, IngameMenu, Inventory }
+public enum ViewType { None, IngameMenu, Inventory, Combat }
 
 public class ViewController : MonoBehaviour
 {
     public static ViewType currentMenu;
 
     public GameObject[] views;
+    public bool onCombat;
     private bool[] isViewVisible;
-
 
     private void Start()
     {
@@ -22,7 +23,7 @@ public class ViewController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) )
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (ViewController.currentMenu is ViewType.IngameMenu or ViewType.None)
             {
@@ -36,6 +37,7 @@ public class ViewController : MonoBehaviour
                 ToggleView(ViewType.Inventory);
             }
         }
+        // if (combat.end)
     }
 
     private void ToggleView(ViewType view)
@@ -53,6 +55,17 @@ public class ViewController : MonoBehaviour
             {
                 currentMenu = view;
             }
+        }
+    }
+
+    public void ToggleCombat()
+    {
+        int index = (int)ViewType.Combat - 1;
+        if (index >= 0 && index < views.Length)
+        {
+            isViewVisible[index] = !isViewVisible[index];
+            views[index].SetActive(isViewVisible[index]);
+            onCombat = !onCombat;
         }
     }
 }
