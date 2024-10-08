@@ -16,7 +16,11 @@ public class Entity {
     public Stats baseStats;
 
     [HideInInspector] public Stats currentStats;
-    public void ResetStats(){
+    public void ResetStats(bool full=false){
+        if(full){
+            this.currentStats.health = this.baseStats.health;
+            this.currentStats.mana = this.baseStats.mana;
+        }
         this.currentStats.attack = this.baseStats.attack;
         this.currentStats.defense = this.baseStats.defense;
         this.currentStats.speed = this.baseStats.speed;

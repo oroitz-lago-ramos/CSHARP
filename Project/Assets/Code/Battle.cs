@@ -1,17 +1,27 @@
 using UnityEngine;
 using System.Linq;
 public class Battle : MonoBehaviour{
-    [HideInInspector] public Bot opponent;
+    public Bot opponentProfile;
     [HideInInspector] public Entity player;
     [HideInInspector] public bool opponentTurn;
     [HideInInspector] public bool choiceMade;
     [HideInInspector] public bool over;
+	[HideInInspector] public Bot opponent;
 	public void OnEnable(){
-		this.opponent.ResetStats();
+		
 		Team.main?.members.ToList().ForEach(member => member.ResetStats());
 		this.player = Team.main.members.First(x=>x.currentStats.health > 0);
 		this.over = false;
-	}
+		this.opponent.baseStats.health = this.opponentProfile.baseStats.health;
+		this.opponent.baseStats.attack = this.opponentProfile.baseStats.attack;
+		this.opponent.baseStats.accuracy = this.opponentProfile.baseStats.accuracy;
+		this.opponent.baseStats.mana = this.opponentProfile.baseStats.mana;
+		this.opponent.baseStats.criticalRate = this.opponentProfile.baseStats.criticalRate;
+        this.opponent.baseStats.defense = this.opponentProfile.baseStats.defense;
+        this.opponent.baseStats.speed = this.opponentProfile.baseStats.speed;
+        this.opponent.ResetStats(true);
+
+    }
 	public void Update(){
 		if(this.over){return;}
 		if(this.opponent.currentStats.health <= 0){
