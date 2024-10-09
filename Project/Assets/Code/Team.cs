@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 public class Team : MonoBehaviour{
     public static Team main;
@@ -6,6 +7,7 @@ public class Team : MonoBehaviour{
     private void Awake()
     {
         main = this;
+        this.members.ToList().ForEach(x=>x.ResetStats(true));
     }
 
     public void Swap(int index)

@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class Script : MonoBehaviour{
     public GameObject textBox;
     public TMP_Text text;
-    public float speed = 10f;
+    public float speed = 30f;
     public bool repeatable;
     public string[] content;
     public UnityEvent actions;
@@ -18,6 +18,10 @@ public class Script : MonoBehaviour{
         this.lineIndex = 0;
         this.characterIndex = 0;
         this.text.text = "";
+        if(this.content.Length < 1 || this.content.Length == 1 && this.content[0].Length < 1){
+            this.textBox.SetActive(false);
+            this.enabled = false;
+        }
     }
     public void Update(){
         var delay = 1 / this.speed;
