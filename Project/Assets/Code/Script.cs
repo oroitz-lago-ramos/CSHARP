@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 public class Script : MonoBehaviour{
@@ -18,6 +19,8 @@ public class Script : MonoBehaviour{
         this.lineIndex = 0;
         this.characterIndex = 0;
         this.text.text = "";
+        this.done = false;
+        this.lineDone = false;
         if(this.content.Length < 1 || this.content.Length == 1 && this.content[0].Length < 1){
             this.textBox.SetActive(false);
             this.enabled = false;
@@ -25,7 +28,7 @@ public class Script : MonoBehaviour{
     }
     public void Update(){
         var delay = 1 / this.speed;
-        var keyPressed = Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.E);
+        var keyPressed = Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0);
         if(!this.lineDone && keyPressed){
             this.characterIndex = this.content[this.lineIndex].Length;
             this.text.text = this.content[this.lineIndex];
@@ -40,9 +43,9 @@ public class Script : MonoBehaviour{
             }
             return;
         }
-        if(this.characterIndex >= this.content[this.lineIndex].Length - 1){
+        if(this.characterIndex >= this.content[this.lineIndex].Length){
             this.lineDone = true;
-            if(keyPressed && this.lineIndex < this.content.Length - 1){
+            if(keyPressed && this.lineIndex < this.content.Length){
                 this.lineIndex += 1;
                 this.characterIndex = 0;
                 this.text.text = "";

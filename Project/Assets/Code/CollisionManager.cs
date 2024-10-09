@@ -16,8 +16,11 @@ public class CollisionManager : MonoBehaviour{
             inventory.items[itemType] = inventory.items.ContainsKey(itemType) ? inventory.items[itemType] + 1 : 1;
             GameObject.Destroy(collision.gameObject);
         }
-        if ((layer & this.dangerLayer) != 0 && Random.Range(0, 50) == 0)
+        if ((layer & this.dangerLayer) != 0 && Random.Range(0, 200) == 0 && !viewController.onCombat)
         {
+            viewController.ToggleCombat();
+            Battle.main.opponentProfile = Enemies.main.mobs[Random.Range(0,Enemies.main.mobs.Length - 1)];
+            Battle.main.enabled = true;
         }
     }
     public void OnTriggerStay2D(Collider2D collision)
@@ -26,6 +29,8 @@ public class CollisionManager : MonoBehaviour{
         if ((layer & this.dangerLayer) != 0 && Random.Range(0, 200) == 0 && !viewController.onCombat)
         {
             viewController.ToggleCombat();
+            Battle.main.opponentProfile = Enemies.main.mobs[Random.Range(0,Enemies.main.mobs.Length - 1)];
+            Battle.main.enabled = true;
         }
     }
 }

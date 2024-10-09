@@ -7,7 +7,7 @@ public class ViewController : MonoBehaviour
     public static ViewType currentMenu;
 
     public GameObject[] views;
-    public bool onCombat;
+    [HideInInspector] public bool onCombat;
     private bool[] isViewVisible;
 
     private void Start()

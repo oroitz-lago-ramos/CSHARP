@@ -823,6 +823,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   done: 0
   lineIndex: 0
   characterIndex: 0
@@ -840,13 +852,15 @@ GameObject:
   - component: {fileID: 5068213684920402707}
   - component: {fileID: 901044578933299041}
   - component: {fileID: 2117553033150948300}
+  - component: {fileID: 1560014507656760514}
+  - component: {fileID: 3928823908688187118}
   m_Layer: 0
   m_Name: BattleMode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2724634797701381900
 RectTransform:
   m_ObjectHideFlags: 0
@@ -893,8 +907,8 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -939,6 +953,123 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1560014507656760514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4970894642632965471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6ff101fde1d7046a94fe33c9100b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script: {fileID: 3928823908688187118}
+  playerImage: {fileID: 2042353558334395597}
+  opponentImage: {fileID: 4145662038710739045}
+  opponentProfile:
+    name: 
+    sprite: {fileID: 0}
+    battleSprite: {fileID: 0}
+    classType: 0
+    experience: 0
+    level: 0
+    baseStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    difficulty: 0
+    thinkTime: 0
+    thinking: 0
+  player:
+    name: 
+    sprite: {fileID: 0}
+    battleSprite: {fileID: 0}
+    classType: 0
+    experience: 0
+    level: 0
+    baseStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+  opponentTurn: 0
+  over: 0
+  opponent:
+    name: 
+    sprite: {fileID: 0}
+    battleSprite: {fileID: 0}
+    classType: 0
+    experience: 0
+    level: 0
+    baseStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    currentStats:
+      health: 0
+      mana: 0
+      attack: 0
+      defense: 0
+      speed: 0
+      accuracy: 0
+      criticalRate: 0
+    difficulty: 0
+    thinkTime: 0
+    thinking: 0
+--- !u!114 &3928823908688187118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4970894642632965471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4521805110c6ef342bf3ec07a4e261d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 0}
+  text: {fileID: 0}
+  speed: 30
+  repeatable: 1
+  content: []
+  actions:
+    m_PersistentCalls:
+      m_Calls: []
+  done: 0
+  lineIndex: 0
+  characterIndex: 0
+  lastTick: 0
+  lineDone: 0
 --- !u!1 &5721394653469039300
 GameObject:
   m_ObjectHideFlags: 0
