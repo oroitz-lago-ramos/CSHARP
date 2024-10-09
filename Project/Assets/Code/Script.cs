@@ -9,11 +9,11 @@ public class Script : MonoBehaviour{
 	public bool repeatable;
 	public List<string> content;
 	public UnityEvent actions;
-	[HideInInspector] public bool done;
-	[HideInInspector] public int lineIndex;
-	[HideInInspector] public int characterIndex;
-	[HideInInspector] public float lastTick;
-	[HideInInspector] public bool lineDone;
+	public bool done;
+	public int lineIndex;
+	public int characterIndex;
+	public float lastTick;
+	public bool lineDone;
 	public void OnEnable(){
 		this.textBox.SetActive(true);
 		this.lineIndex = 0;
