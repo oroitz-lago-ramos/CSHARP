@@ -23,7 +23,7 @@ public class CollisionManager : MonoBehaviour{
     public void OnTriggerStay2D(Collider2D collision)
     {
         var layer = 1 << collision.gameObject.layer;
-        if ((layer & this.dangerLayer) != 0 && Random.Range(0, 200) == 0 && !viewController.onCombat)
+        if ((layer & this.dangerLayer) != 0 && Random.Range(0, 200) == 0 && !ViewController.onCombat)
         {
             viewController.ToggleCombat();
         }
