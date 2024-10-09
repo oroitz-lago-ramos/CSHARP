@@ -1,20 +1,14 @@
+using System.Linq;
 using UnityEngine;
 public class Team : MonoBehaviour{
     public static Team main;
     public Entity[] members;
-
-    private void Awake()
-    {
-        main = this;
+    public void Awake(){
+        Team.main = this;
+        this.members.ToList().ForEach(x=>x.baseStats.CopyTo(x.currentStats));
     }
-
-    public void Swap(int index)
-    {
-        if (index < members.Length)
-        {
-            Entity temp = members[0];
-            members[0] = members[index];
-            members[index] = temp;
-        }
+    public void Swap(int index){
+        if(index >= members.Length){return;}
+        (this.members[index],this.members[0]) = (this.members[0],this.members[index]);
     }
 }

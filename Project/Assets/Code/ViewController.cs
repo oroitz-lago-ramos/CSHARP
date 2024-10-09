@@ -8,6 +8,7 @@ public class ViewController : MonoBehaviour
     public static bool onCombat;
 
     public GameObject[] views;
+    [HideInInspector] public bool onCombat;
     private bool[] isViewVisible;
 
     private void Start()
