@@ -45,8 +45,8 @@ public class InvetoryController : MonoBehaviour
                 UpdateSelectedItem();
             }
         }
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
+        if (Input.GetKeyDown(KeyCode.Return) && Inventory.main.items.Count > 0)
+        {        
             var itemTag = Inventory.main.items.Keys.ToArray()[this.selectedItemIndex];
             Enum.TryParse<ItemType>(itemTag,false,out var itemType);
             var itemProfile = Items.main.list[(int)itemType];

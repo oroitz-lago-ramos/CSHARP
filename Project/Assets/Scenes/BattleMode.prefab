@@ -270,8 +270,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2318069267726665465}
-        m_TargetAssemblyTypeName: AttacksMenu, Assembly-CSharp
+      - m_Target: {fileID: 362658813186820392}
+        m_TargetAssemblyTypeName: BattleButtonsController, Assembly-CSharp
         m_MethodName: OpenAttackMenu
         m_Mode: 1
         m_Arguments:
@@ -402,8 +402,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2318069267726665465}
-        m_TargetAssemblyTypeName: AttacksMenu, Assembly-CSharp
+      - m_Target: {fileID: 362658813186820392}
+        m_TargetAssemblyTypeName: BattleButtonsController, Assembly-CSharp
         m_MethodName: CloseAttackMenu
         m_Mode: 1
         m_Arguments:
@@ -771,6 +771,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 362658813186820392}
+        m_TargetAssemblyTypeName: BattleButtonsController, Assembly-CSharp
+        m_MethodName: OpenMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3785547032506453747
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,6 +906,18 @@ MonoBehaviour:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
         m_MethodName: ToggleInGameMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 362658813186820392}
+        m_TargetAssemblyTypeName: BattleButtonsController, Assembly-CSharp
+        m_MethodName: OpenMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1088,7 +1112,7 @@ GameObject:
   - component: {fileID: 2117553033150948300}
   - component: {fileID: 1560014507656760514}
   - component: {fileID: 3928823908688187118}
-  - component: {fileID: 2318069267726665465}
+  - component: {fileID: 362658813186820392}
   m_Layer: 0
   m_Name: BattleMode
   m_TagString: Untagged
@@ -1259,7 +1283,7 @@ MonoBehaviour:
   characterIndex: 0
   lastTick: 0
   lineDone: 0
---- !u!114 &2318069267726665465
+--- !u!114 &362658813186820392
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1268,13 +1292,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4970894642632965471}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7905e7f9b59c15849acc249804d5f4db, type: 3}
+  m_Script: {fileID: 11500000, guid: e86439cdb28e5a045acf883e811a63e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mainButtons:
   - {fileID: 1400961957363239635}
-  - {fileID: 1913919647236029980}
   - {fileID: 3663534585776219060}
+  - {fileID: 3785547032506453747}
   - {fileID: 4640408000144998496}
   attacksButtons:
   - {fileID: 2004696691185583820}
