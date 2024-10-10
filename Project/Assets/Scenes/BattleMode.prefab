@@ -270,7 +270,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2318069267726665465}
         m_TargetAssemblyTypeName: AttacksMenu, Assembly-CSharp
         m_MethodName: OpenAttackMenu
         m_Mode: 1
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2318069267726665465}
         m_TargetAssemblyTypeName: AttacksMenu, Assembly-CSharp
         m_MethodName: CloseAttackMenu
         m_Mode: 1
