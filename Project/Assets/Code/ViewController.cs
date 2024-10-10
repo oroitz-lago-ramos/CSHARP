@@ -23,19 +23,13 @@ public class ViewController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !ViewController.onCombat)
         {
-            if (ViewController.currentMenu is ViewType.InGameMenu or ViewType.None && !ViewController.onCombat)
-            {
-                ToggleView(ViewType.InGameMenu);
-            }
+            ToggleInGameMenu();
         }
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I) && !ViewController.onCombat)
         {
-            if (ViewController.currentMenu is ViewType.Inventory or ViewType.None && !ViewController.onCombat)
-            {
-                ToggleView(ViewType.Inventory);
-            }
+            ToggleInventory();
         }
         // if (combat.end)
     }
@@ -71,11 +65,17 @@ public class ViewController : MonoBehaviour
 
     public void ToggleInventory()
     {
-        ToggleView(ViewType.Inventory);
+        if (ViewController.currentMenu is ViewType.Inventory or ViewType.None)
+        {
+            ToggleView(ViewType.Inventory);
+        }
     }
 
     public void ToggleInGameMenu()
     {
-        ToggleView(ViewType.InGameMenu);
+        if (ViewController.currentMenu is ViewType.InGameMenu or ViewType.None)
+        {
+            ToggleView(ViewType.InGameMenu);
+        }
     }
 }

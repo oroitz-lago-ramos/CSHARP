@@ -717,7 +717,6 @@ MonoBehaviour:
   - {fileID: 1408461599}
   - {fileID: 1882068047}
   - {fileID: 5123279251910109767}
-  onCombat: 0
 --- !u!114 &1703616730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -828,6 +827,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1703616728}
     m_Modifications:
+    - target: {fileID: 2224901364966766094, guid: f2eebe4347a46c543babdacb633d90a2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1703616729}
     - target: {fileID: 2295096871724220939, guid: f2eebe4347a46c543babdacb633d90a2, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1315,14 +1318,18 @@ PrefabInstance:
       propertyPath: textBox
       value: 
       objectReference: {fileID: 1200858383}
-    - target: {fileID: 3928823908688187118, guid: d5fd3b65b5217534bbc2b6f2cdb6aca4, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4970894642632965471, guid: d5fd3b65b5217534bbc2b6f2cdb6aca4, type: 3}
       propertyPath: m_Name
       value: BattleMode
       objectReference: {fileID: 0}
+    - target: {fileID: 6869963389347916365, guid: d5fd3b65b5217534bbc2b6f2cdb6aca4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1703616729}
+    - target: {fileID: 8006142104167763120, guid: d5fd3b65b5217534bbc2b6f2cdb6aca4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1703616729}
     - target: {fileID: 8061063273352301711, guid: d5fd3b65b5217534bbc2b6f2cdb6aca4, type: 3}
       propertyPath: text
       value: 
@@ -1331,10 +1338,6 @@ PrefabInstance:
       propertyPath: textBox
       value: 
       objectReference: {fileID: 1200858383}
-    - target: {fileID: 8061063273352301711, guid: d5fd3b65b5217534bbc2b6f2cdb6aca4, type: 3}
-      propertyPath: actions.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8061063273352301711, guid: d5fd3b65b5217534bbc2b6f2cdb6aca4, type: 3}
       propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
