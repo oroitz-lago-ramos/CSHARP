@@ -59,6 +59,7 @@ public class InvetoryController : MonoBehaviour
             {
                 Battle.main.action = ActionType.ItemUse;
                 Battle.main.currentItem = itemProfile.name;
+                ViewController.main.ToggleInventory();
             }
         }
     }

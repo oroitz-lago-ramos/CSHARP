@@ -48,4 +48,15 @@ public class BattleButtonsController : MonoBehaviour
             mainButtons[i].SetActive(true);
         }
     }
+
+    public void Update()
+    {
+        if (Battle.main.currentTurnEnded)
+        {
+            for (int i = 0; i < mainButtons.Length; i++)
+            {
+                mainButtons[i].SetActive(true);
+            }
+        }
+    }
 }

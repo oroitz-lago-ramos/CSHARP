@@ -21,7 +21,8 @@ public class Battle : MonoBehaviour{
 	[HideInInspector] public string currentItem;
     [HideInInspector] public bool opponentTurn;
     [HideInInspector] public bool over;
-	public void Awake(){
+    [HideInInspector] public bool currentTurnEnded;
+    public void Awake(){
 		Battle.main = this;
 		this.enabled = false;
     }
@@ -38,6 +39,7 @@ public class Battle : MonoBehaviour{
 		this.script.enabled = true;
     }
 	public void Update(){
+		this.currentTurnEnded = false;
 		var user = this.opponentTurn ? this.opponent : this.player;
 		if(this.script.enabled || this.over){return;}
 		if(user.currentStats.health <= 0){
@@ -82,6 +84,7 @@ public class Battle : MonoBehaviour{
 			this.playerImage.sprite = this.player.battleSprite;
 			this.script.enabled = true;
         }
+		this.currentTurnEnded = true;
 		this.action = ActionType.None;
 		this.opponentTurn = !this.opponentTurn;
 	}

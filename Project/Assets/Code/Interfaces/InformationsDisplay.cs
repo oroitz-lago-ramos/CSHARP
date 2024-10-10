@@ -68,8 +68,12 @@ public class InformationsDisplay : MonoBehaviour
             selectedCharacterIndex = 0;
             SpriteAttribution();
             UpdateSelectedCharacterBackgroundPosition();
-            Battle.main.action = ActionType.TeamSwap;
-            Battle.main.player = Team.main.members.First();
+            if (ViewController.onCombat)
+            {
+                Battle.main.action = ActionType.TeamSwap;
+                Battle.main.player = Team.main.members.First();
+                ViewController.main.ToggleInGameMenu();
+            }
         }
     }
 

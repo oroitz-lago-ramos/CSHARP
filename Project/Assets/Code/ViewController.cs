@@ -4,12 +4,17 @@ public enum ViewType { None, InGameMenu, Inventory, Combat }
 
 public class ViewController : MonoBehaviour
 {
+    public static ViewController main;
     public static ViewType currentMenu;
     public static bool onCombat;
 
     public GameObject[] views;
     private bool[] isViewVisible;
 
+    public void Awake()
+    {
+        ViewController.main = this;
+    }
     private void Start()
     {
         isViewVisible = new bool[views.Length];
