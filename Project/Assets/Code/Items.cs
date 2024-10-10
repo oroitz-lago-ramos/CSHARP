@@ -11,6 +11,7 @@ public class Item{
     public string name;
     public Sprite sprite;
     public float value;
+    public int price;
     public string description;
     public void Use(string tag) {
         var member = Team.main.members.First();

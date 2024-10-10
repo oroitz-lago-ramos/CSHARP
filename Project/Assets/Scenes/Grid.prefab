@@ -130161,6 +130161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2445967757864068395}
+  - component: {fileID: 2148294449735883796}
   m_Layer: 0
   m_Name: '@Items'
   m_TagString: Untagged
@@ -130189,6 +130190,20 @@ Transform:
   - {fileID: 918576690952173097}
   m_Father: {fileID: 5702074310345915217}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2148294449735883796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8068424528584280766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db216dc49617f5a4b82df305c522c7b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list: []
+  price: 4
 --- !u!1 &8308849528644825643
 GameObject:
   m_ObjectHideFlags: 0
@@ -130829,8 +130844,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1030565887597787416, guid: c267b864ed5cb8e41a10b518d563f4c5, type: 3}
       propertyPath: actions.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030565887597787416, guid: c267b864ed5cb8e41a10b518d563f4c5, type: 3}
+      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8068424528584280766}
     - target: {fileID: 1030565887597787416, guid: c267b864ed5cb8e41a10b518d563f4c5, type: 3}
       propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -130940,6 +130959,34 @@ PrefabInstance:
     - target: {fileID: 4526202600423649283, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
       propertyPath: m_Name
       value: Shop Health Potion (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
+      propertyPath: actions.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
+      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
+      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11500000, guid: db216dc49617f5a4b82df305c522c7b4, type: 3}
+    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
+      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
+      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
+      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
+      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
