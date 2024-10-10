@@ -16,7 +16,7 @@ public class CollisionManager : MonoBehaviour{
             inventory.items[itemType] = inventory.items.ContainsKey(itemType) ? inventory.items[itemType] + 1 : 1;
             GameObject.Destroy(collision.gameObject);
         }
-        if ((layer & this.dangerLayer) != 0 && Random.Range(0, 200) == 0 && !viewController.onCombat)
+        if ((layer & this.dangerLayer) != 0 && Random.Range(0, 200) == 0 && !ViewController.onCombat)
         {
             viewController.ToggleCombat();
             Battle.main.opponentProfile = Enemies.main.mobs[Random.Range(0,Enemies.main.mobs.Length - 1)];
@@ -26,7 +26,7 @@ public class CollisionManager : MonoBehaviour{
     public void OnTriggerStay2D(Collider2D collision)
     {
         var layer = 1 << collision.gameObject.layer;
-        if ((layer & this.dangerLayer) != 0 && Random.Range(0, 200) == 0 && !viewController.onCombat)
+        if ((layer & this.dangerLayer) != 0 && Random.Range(0, 200) == 0 && !ViewController.onCombat)
         {
             viewController.ToggleCombat();
             Battle.main.opponentProfile = Enemies.main.mobs[Random.Range(0,Enemies.main.mobs.Length - 1)];

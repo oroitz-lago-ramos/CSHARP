@@ -3,15 +3,6 @@ public enum SkillTarget{
     Self,
     Opponent
 }
-public enum Stat{
-    Health,
-    Mana,
-    Attack,
-    Defense,
-    Speed,
-    Accuracy,
-    CriticalRate
-}
 [System.Serializable]
 public class Skill{
     public string name;
@@ -28,7 +19,9 @@ public class Skill{
     public Stat statTarget;
 }
 public class Skills : MonoBehaviour{
+    public static Skills main;
     public Skill[] knight;
     public Skill[] archer;
     public Skill[] mage;
+    public void Awake() => Skills.main = this;
 }
