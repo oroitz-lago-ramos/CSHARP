@@ -73,12 +73,14 @@ public class Battle : MonoBehaviour{
 			if(this.currentItem == ""){return;}
 			this.script.content.Clear();
 			this.script.content.Add($"{user.name} uses {this.currentItem}!");
+			this.script.enabled = true;
 			this.currentItem = "";
 		}
 		if(this.action == ActionType.TeamSwap){
             this.script.content.Clear();
             this.script.content.Add($"{user.name} is taking over!");
-			this.playerImage.sprite = this.player.sprite;
+			this.playerImage.sprite = this.player.battleSprite;
+			this.script.enabled = true;
         }
 		this.action = ActionType.None;
 		this.opponentTurn = !this.opponentTurn;

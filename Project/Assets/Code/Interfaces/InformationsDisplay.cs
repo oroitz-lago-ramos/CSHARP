@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
+using System.Linq;
 
 public class InformationsDisplay : MonoBehaviour
 {
@@ -67,7 +68,8 @@ public class InformationsDisplay : MonoBehaviour
             selectedCharacterIndex = 0;
             SpriteAttribution();
             UpdateSelectedCharacterBackgroundPosition();
-
+            Battle.main.action = ActionType.TeamSwap;
+            Battle.main.player = Team.main.members.First();
         }
     }
 

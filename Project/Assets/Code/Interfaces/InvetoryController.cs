@@ -55,6 +55,11 @@ public class InvetoryController : MonoBehaviour
                 if (Inventory.main.items[itemTag] <= 1) { Inventory.main.items.Remove(itemTag);}
                 else {Inventory.main.items[itemTag] -= 1;}
             }
+            if (ViewController.onCombat)
+            {
+                Battle.main.action = ActionType.ItemUse;
+                Battle.main.currentItem = itemProfile.name;
+            }
         }
     }
 
