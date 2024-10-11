@@ -357,7 +357,7 @@ MonoBehaviour:
   - name: Cloud
     sprite: {fileID: 3686524367589253863, guid: 8d621815b150ce34db719e97217d5034, type: 3}
     battleSprite: {fileID: 3349391187094723686, guid: d535a5816066e854cb257599bb3d42eb, type: 3}
-    classType: 0
+    classType: 1
     experience: 0
     level: 0
     baseStats:
@@ -379,7 +379,7 @@ MonoBehaviour:
   - name: Cid
     sprite: {fileID: -7973174442484531416, guid: 010e8c0504be0b5449b3cf46785aedad, type: 3}
     battleSprite: {fileID: 7018229299051819269, guid: 74679af21d7f32f48a34950e0993f021, type: 3}
-    classType: 0
+    classType: 2
     experience: 0
     level: 0
     baseStats:

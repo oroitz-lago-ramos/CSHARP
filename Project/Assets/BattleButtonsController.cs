@@ -1,10 +1,14 @@
+using System.Linq;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BattleButtonsController : MonoBehaviour
 {
     public GameObject[] mainButtons;
     public GameObject[] attacksButtons;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public TextMeshProUGUI[] attacksNames;
+   
     private void Start()
     {
         for (int i = 0; i < attacksButtons.Length; i++)
@@ -18,6 +22,12 @@ public class BattleButtonsController : MonoBehaviour
         }
         for (int i = 0; i < attacksButtons.Length; i++)
         { attacksButtons[i].SetActive(true); }
+        var classes = new[] { Skills.main.knight, Skills.main.archer, Skills.main.mage };
+        var skills = classes[(int)Team.main.members.First().classType];
+        for (int i = 0; i < attacksNames.Length; i++)
+        {
+            attacksNames[i].text = skills[i].name;
+        }
     }
 
     public void CloseAttackMenu()
