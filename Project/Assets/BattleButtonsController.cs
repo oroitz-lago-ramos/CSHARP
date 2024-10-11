@@ -26,7 +26,7 @@ public class BattleButtonsController : MonoBehaviour
         var skills = classes[(int)Team.main.members.First().classType];
         for (int i = 0; i < attacksNames.Length; i++)
         {
-            attacksNames[i].text = skills[i].name;
+            attacksNames[i].text = Team.main.members.First().level >= skills[i].minimumLevel ? skills[i].name : "?????";
         }
     }
 
@@ -68,5 +68,33 @@ public class BattleButtonsController : MonoBehaviour
                 mainButtons[i].SetActive(true);
             }
         }
+    }
+
+    public void useFirstAttack()
+    {
+        var classes = new[] { Skills.main.knight, Skills.main.archer, Skills.main.mage };
+        var skills = classes[(int)Team.main.members.First().classType];
+        if (Team.main.members.First().level < skills[0].minimumLevel) { return; }
+        Battle.main.action = ActionType.Attack;
+        Battle.main.currentAttack = 0;
+        CloseAttackMenu();
+    }
+    public void useSecondAttack()
+    {
+        var classes = new[] { Skills.main.knight, Skills.main.archer, Skills.main.mage };
+        var skills = classes[(int)Team.main.members.First().classType];
+        if (Team.main.members.First().level < skills[1].minimumLevel) { return; }
+        Battle.main.action = ActionType.Attack;
+        Battle.main.currentAttack = 1;
+        CloseAttackMenu();
+    }
+    public void useThirdAttack()
+    {
+        var classes = new[] { Skills.main.knight, Skills.main.archer, Skills.main.mage };
+        var skills = classes[(int)Team.main.members.First().classType];
+        if (Team.main.members.First().level < skills[2].minimumLevel) { return; }
+        Battle.main.action = ActionType.Attack;
+        Battle.main.currentAttack = 2;
+        CloseAttackMenu();
     }
 }

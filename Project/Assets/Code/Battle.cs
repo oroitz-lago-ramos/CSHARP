@@ -68,8 +68,9 @@ public class Battle : MonoBehaviour{
 			if(user.level <= skill.minimumLevel){return;}
             this.script.content.Clear();
             this.script.content.Add($"{user.name} uses {skill.name}!");
+            this.script.enabled = true;
             target.currentStats[skill.statTarget] += skill.value;
-            user.currentStats[Stat.Mana] = Mathf.Max(0,user.currentStats[Stat.Mana] - skill.cost);
+			user.currentStats[Stat.Mana] = Mathf.Max(0, user.currentStats[Stat.Mana] - skill.cost);
         }
 		if(this.action == ActionType.ItemUse){
 			if(this.currentItem == ""){return;}
