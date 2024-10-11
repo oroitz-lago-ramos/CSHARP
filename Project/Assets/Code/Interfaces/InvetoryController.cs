@@ -45,8 +45,8 @@ public class InvetoryController : MonoBehaviour
                 UpdateSelectedItem();
             }
         }
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
+        if (Input.GetKeyDown(KeyCode.Return) && Inventory.main.items.Count > 0)
+        {        
             var itemTag = Inventory.main.items.Keys.ToArray()[this.selectedItemIndex];
             Enum.TryParse<ItemType>(itemTag,false,out var itemType);
             var itemProfile = Items.main.list[(int)itemType];
@@ -54,6 +54,12 @@ public class InvetoryController : MonoBehaviour
             if(Inventory.main.items.ContainsKey(itemTag)){
                 if (Inventory.main.items[itemTag] <= 1) { Inventory.main.items.Remove(itemTag);}
                 else {Inventory.main.items[itemTag] -= 1;}
+            }
+            if (ViewController.onCombat)
+            {
+                Battle.main.action = ActionType.ItemUse;
+                Battle.main.currentItem = itemProfile.name;
+                ViewController.main.ToggleInventory();
             }
         }
     }

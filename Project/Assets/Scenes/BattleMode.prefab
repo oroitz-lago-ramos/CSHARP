@@ -270,8 +270,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3089247162409253679}
-        m_TargetAssemblyTypeName: AttacksMenu, Assembly-CSharp
+      - m_Target: {fileID: 362658813186820392}
+        m_TargetAssemblyTypeName: BattleButtonsController, Assembly-CSharp
         m_MethodName: OpenAttackMenu
         m_Mode: 1
         m_Arguments:
@@ -402,8 +402,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3089247162409253679}
-        m_TargetAssemblyTypeName: AttacksMenu, Assembly-CSharp
+      - m_Target: {fileID: 362658813186820392}
+        m_TargetAssemblyTypeName: BattleButtonsController, Assembly-CSharp
         m_MethodName: CloseAttackMenu
         m_Mode: 1
         m_Arguments:
@@ -771,6 +771,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 362658813186820392}
+        m_TargetAssemblyTypeName: BattleButtonsController, Assembly-CSharp
+        m_MethodName: OpenMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3785547032506453747
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,6 +906,18 @@ MonoBehaviour:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
         m_MethodName: ToggleInGameMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 362658813186820392}
+        m_TargetAssemblyTypeName: BattleButtonsController, Assembly-CSharp
+        m_MethodName: OpenMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1069,18 +1093,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   done: 0
   lineIndex: 0
   characterIndex: 0
@@ -1100,6 +1112,7 @@ GameObject:
   - component: {fileID: 2117553033150948300}
   - component: {fileID: 1560014507656760514}
   - component: {fileID: 3928823908688187118}
+  - component: {fileID: 362658813186820392}
   m_Layer: 0
   m_Name: BattleMode
   m_TagString: Untagged
@@ -1215,57 +1228,6 @@ MonoBehaviour:
   script: {fileID: 3928823908688187118}
   playerImage: {fileID: 2042353558334395597}
   opponentImage: {fileID: 4145662038710739045}
-  opponentProfile:
-    name: 
-    sprite: {fileID: 0}
-    battleSprite: {fileID: 0}
-    classType: 0
-    experience: 0
-    level: 0
-    baseStats:
-      health: 0
-      mana: 0
-      attack: 0
-      defense: 0
-      speed: 0
-      accuracy: 0
-      criticalRate: 0
-    currentStats:
-      health: 0
-      mana: 0
-      attack: 0
-      defense: 0
-      speed: 0
-      accuracy: 0
-      criticalRate: 0
-    difficulty: 0
-    thinkTime: 0
-    thinking: 0
-  player:
-    name: 
-    sprite: {fileID: 0}
-    battleSprite: {fileID: 0}
-    classType: 0
-    experience: 0
-    level: 0
-    baseStats:
-      health: 0
-      mana: 0
-      attack: 0
-      defense: 0
-      speed: 0
-      accuracy: 0
-      criticalRate: 0
-    currentStats:
-      health: 0
-      mana: 0
-      attack: 0
-      defense: 0
-      speed: 0
-      accuracy: 0
-      criticalRate: 0
-  opponentTurn: 0
-  over: 0
   opponent:
     name: 
     sprite: {fileID: 0}
@@ -1292,6 +1254,10 @@ MonoBehaviour:
     difficulty: 0
     thinkTime: 0
     thinking: 0
+  currentAttack: 0
+  currentItem: 
+  opponentTurn: 0
+  over: 0
 --- !u!114 &3928823908688187118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1299,7 +1265,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4970894642632965471}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4521805110c6ef342bf3ec07a4e261d0, type: 3}
   m_Name: 
@@ -1317,6 +1283,28 @@ MonoBehaviour:
   characterIndex: 0
   lastTick: 0
   lineDone: 0
+--- !u!114 &362658813186820392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4970894642632965471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e86439cdb28e5a045acf883e811a63e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainButtons:
+  - {fileID: 1400961957363239635}
+  - {fileID: 3663534585776219060}
+  - {fileID: 3785547032506453747}
+  - {fileID: 4640408000144998496}
+  attacksButtons:
+  - {fileID: 2004696691185583820}
+  - {fileID: 2924160485954917536}
+  - {fileID: 984620727422795450}
+  - {fileID: 1913919647236029980}
 --- !u!1 &5721394653469039300
 GameObject:
   m_ObjectHideFlags: 0

@@ -130203,7 +130203,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list: []
-  price: 4
 --- !u!1 &8308849528644825643
 GameObject:
   m_ObjectHideFlags: 0

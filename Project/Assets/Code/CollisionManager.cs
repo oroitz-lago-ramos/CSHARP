@@ -1,7 +1,6 @@
 using UnityEngine;
 
 public class CollisionManager : MonoBehaviour{
-    public ViewController viewController;
 
     public LayerMask itemsLayer;
     public LayerMask interactableLayer;
@@ -18,7 +17,7 @@ public class CollisionManager : MonoBehaviour{
         }
         if ((layer & this.dangerLayer) != 0 && Random.Range(0, 200) == 0 && !ViewController.onCombat)
         {
-            viewController.ToggleCombat();
+            ViewController.main.ToggleCombat();
             Battle.main.opponentProfile = Enemies.main.mobs[Random.Range(0,Enemies.main.mobs.Length - 1)];
             Battle.main.enabled = true;
         }
@@ -28,7 +27,7 @@ public class CollisionManager : MonoBehaviour{
         var layer = 1 << collision.gameObject.layer;
         if ((layer & this.dangerLayer) != 0 && Random.Range(0, 200) == 0 && !ViewController.onCombat)
         {
-            viewController.ToggleCombat();
+            ViewController.main.ToggleCombat();
             Battle.main.opponentProfile = Enemies.main.mobs[Random.Range(0,Enemies.main.mobs.Length - 1)];
             Battle.main.enabled = true;
         }

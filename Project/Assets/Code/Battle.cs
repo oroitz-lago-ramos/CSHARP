@@ -30,7 +30,8 @@ public class Battle : MonoBehaviour{
 	[HideInInspector] public string currentItem;
     [HideInInspector] public bool opponentTurn;
     [HideInInspector] public bool over;
-	public void Awake(){
+    [HideInInspector] public bool currentTurnEnded;
+    public void Awake(){
 		Battle.main = this;
 		this.enabled = false;
     }
@@ -47,6 +48,7 @@ public class Battle : MonoBehaviour{
 		this.script.enabled = true;
     }
 	public void Update(){
+		this.currentTurnEnded = false;
 		var user = this.opponentTurn ? this.opponent : this.player;
 		if(this.script.enabled || this.over){return;}
 		if(user.currentStats.health <= 0){
@@ -82,13 +84,16 @@ public class Battle : MonoBehaviour{
 			if(this.currentItem == ""){return;}
 			this.script.content.Clear();
 			this.script.content.Add($"{user.name} uses {this.currentItem}!");
+			this.script.enabled = true;
 			this.currentItem = "";
 		}
 		if(this.action == ActionType.TeamSwap){
             this.script.content.Clear();
             this.script.content.Add($"{user.name} is taking over!");
-			this.playerImage.sprite = this.player.sprite;
+			this.playerImage.sprite = this.player.battleSprite;
+			this.script.enabled = true;
         }
+		this.currentTurnEnded = true;
 		this.action = ActionType.None;
 		this.opponentTurn = !this.opponentTurn;
 	}

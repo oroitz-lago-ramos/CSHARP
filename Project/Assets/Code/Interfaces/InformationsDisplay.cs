@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
+using System.Linq;
 
 public class InformationsDisplay : MonoBehaviour
 {
@@ -67,7 +68,12 @@ public class InformationsDisplay : MonoBehaviour
             selectedCharacterIndex = 0;
             SpriteAttribution();
             UpdateSelectedCharacterBackgroundPosition();
-
+            if (ViewController.onCombat)
+            {
+                Battle.main.action = ActionType.TeamSwap;
+                Battle.main.player = Team.main.members.First();
+                ViewController.main.ToggleInGameMenu();
+            }
         }
     }
 
@@ -75,14 +81,15 @@ public class InformationsDisplay : MonoBehaviour
     {
         if (selectedCharacterIndex < Team.main.members.Length)
         {
-            characterName.text = Team.main.members[selectedCharacterIndex].name;
-            healthText.text = "Health: " + Team.main.members[selectedCharacterIndex].currentStats.health;
-            manaText.text = "Mana: " + Team.main.members[selectedCharacterIndex].currentStats.mana;
-            attackText.text = "Attack: " + Team.main.members[selectedCharacterIndex].baseStats.attack;
-            defenseText.text = "Defense: " + Team.main.members[selectedCharacterIndex].baseStats.defense;
-            speedText.text = "Speed: " + Team.main.members[selectedCharacterIndex].baseStats.speed;
-            accuracyText.text = "Accuracy: " + Team.main.members[selectedCharacterIndex].baseStats.accuracy;
-            criticalRateText.text = "Crit. Rate: " + Team.main.members[selectedCharacterIndex].baseStats.criticalRate;
+            var member = Team.main.members[selectedCharacterIndex];
+            characterName.text = member.name;
+            healthText.text = "Health: " + member.currentStats.health + "/" + member.baseStats.health;
+            manaText.text = "Mana: " + member.currentStats.mana + "/" + member.baseStats.mana;
+            attackText.text = "Attack: " + member.baseStats.attack;
+            defenseText.text = "Defense: " + member.baseStats.defense;
+            speedText.text = "Speed: " + member.baseStats.speed;
+            accuracyText.text = "Accuracy: " + member.baseStats.accuracy;
+            criticalRateText.text = "Crit. Rate: " + member.baseStats.criticalRate;
         }
         else
         {
