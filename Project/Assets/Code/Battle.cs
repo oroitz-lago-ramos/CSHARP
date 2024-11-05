@@ -13,6 +13,15 @@ public class Battle : MonoBehaviour{
     public Script script;
 	public Image playerImage;
 	public Image opponentImage;
+    public string opponentName
+    {
+        set
+        {
+			var bossFound = Enemies.main.bosses.FirstOrDefault(boss => boss.name == value);
+            var mobFound = Enemies.main.mobs.FirstOrDefault(mob => mob.name == value);
+            this.opponentProfile = bossFound ?? mobFound ?? this.opponentProfile;
+        }
+	}
     [HideInInspector] public Bot opponentProfile{get;set;}
     [HideInInspector] public Bot opponent = new();
     [HideInInspector] public Entity player{get;set;}
