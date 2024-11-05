@@ -5956,7 +5956,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b06ed9dfe682ef04eaac48a1782903b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewController: {fileID: 0}
   itemsLayer:
     serializedVersion: 2
     m_Bits: 0

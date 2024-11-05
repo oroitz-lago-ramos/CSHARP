@@ -68,7 +68,7 @@ MonoBehaviour:
     value: 150
     duration: 0
     cooldown: 0
-    minimumLevel: 0
+    minimumLevel: 1
     cost: 50
     target: 0
     statTarget: 0
@@ -80,7 +80,7 @@ MonoBehaviour:
     value: 280
     duration: 0
     cooldown: 0
-    minimumLevel: 0
+    minimumLevel: 10
     cost: 100
     target: 0
     statTarget: 0
@@ -388,14 +388,17 @@ MonoBehaviour:
   - name: Health Potion
     sprite: {fileID: 4902874479080691499, guid: d03d44c43ccc55348af359966821e335, type: 3}
     value: 30
+    price: 0
     description: Replenishes 30hp.
   - name: Mana Potion
     sprite: {fileID: 4072992187217914624, guid: cd0aae7deeff0e546bd44f71950a2594, type: 3}
     value: 30
+    price: 0
     description: Replenishes 30 mana.
   - name: Money
     sprite: {fileID: -7761106982459970301, guid: ae9ec6a490785af419ba2ac386abf12e, type: 3}
     value: 10
+    price: 0
     description: MONEY
 --- !u!82 &7100216626123551001
 AudioSource:
