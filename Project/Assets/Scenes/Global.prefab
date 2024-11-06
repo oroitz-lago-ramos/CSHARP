@@ -53,36 +53,36 @@ MonoBehaviour:
     voice: {fileID: 0}
     sound: {fileID: 0}
     isActive: 0
-    value: 90
+    value: -90
     duration: 0
     cooldown: 0
     minimumLevel: 0
     cost: 0
-    target: 0
+    target: 1
     statTarget: 0
   - name: Ultima Arma
     animation: 
     voice: {fileID: 0}
     sound: {fileID: 0}
     isActive: 0
-    value: 150
+    value: -150
     duration: 0
     cooldown: 0
     minimumLevel: 1
     cost: 50
-    target: 0
+    target: 1
     statTarget: 0
   - name: Bonk
     animation: 
     voice: {fileID: 0}
     sound: {fileID: 0}
     isActive: 0
-    value: 280
+    value: -280
     duration: 0
     cooldown: 0
     minimumLevel: 10
     cost: 100
-    target: 0
+    target: 1
     statTarget: 0
   archer:
   - name: Deathwind Arrow
@@ -90,36 +90,36 @@ MonoBehaviour:
     voice: {fileID: 0}
     sound: {fileID: 0}
     isActive: 0
-    value: 80
+    value: -80
     duration: 0
     cooldown: 0
     minimumLevel: 0
     cost: 0
-    target: 0
+    target: 1
     statTarget: 0
   - name: Celestial Sniper
     animation: 
     voice: {fileID: 0}
     sound: {fileID: 0}
     isActive: 0
-    value: 130
+    value: -130
     duration: 0
     cooldown: 0
     minimumLevel: 0
     cost: 80
-    target: 0
+    target: 1
     statTarget: 0
   - name: Curtain Call
     animation: 
     voice: {fileID: 0}
     sound: {fileID: 0}
     isActive: 0
-    value: 250
+    value: -250
     duration: 0
     cooldown: 0
     minimumLevel: 0
     cost: 100
-    target: 0
+    target: 1
     statTarget: 0
   mage:
   - name: Scarlet Rot
@@ -127,36 +127,36 @@ MonoBehaviour:
     voice: {fileID: 0}
     sound: {fileID: 0}
     isActive: 0
-    value: 100
+    value: -100
     duration: 0
     cooldown: 0
     minimumLevel: 0
     cost: 0
-    target: 0
+    target: 1
     statTarget: 0
   - name: Azur Comet
     animation: 
     voice: {fileID: 0}
     sound: {fileID: 0}
     isActive: 0
-    value: 150
+    value: -150
     duration: 0
     cooldown: 0
     minimumLevel: 0
     cost: 100
-    target: 0
+    target: 1
     statTarget: 0
   - name: Diamond Storm
     animation: 
     voice: {fileID: 0}
     sound: {fileID: 0}
     isActive: 0
-    value: 300
+    value: -300
     duration: 0
     cooldown: 0
     minimumLevel: 0
     cost: 200
-    target: 0
+    target: 1
     statTarget: 0
 --- !u!114 &2184456873543053750
 MonoBehaviour:
@@ -388,12 +388,12 @@ MonoBehaviour:
   - name: Health Potion
     sprite: {fileID: 4902874479080691499, guid: d03d44c43ccc55348af359966821e335, type: 3}
     value: 30
-    price: 0
+    price: 1
     description: Replenishes 30hp.
   - name: Mana Potion
     sprite: {fileID: 4072992187217914624, guid: cd0aae7deeff0e546bd44f71950a2594, type: 3}
     value: 30
-    price: 0
+    price: 1
     description: Replenishes 30 mana.
   - name: Money
     sprite: {fileID: -7761106982459970301, guid: ae9ec6a490785af419ba2ac386abf12e, type: 3}

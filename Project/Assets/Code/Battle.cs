@@ -13,24 +13,22 @@ public class Battle : MonoBehaviour{
     public Script script;
 	public Image playerImage;
 	public Image opponentImage;
-    public string opponentName
-    {
-        set
-        {
+    public string opponentName{
+        set{
 			var bossFound = Enemies.main.bosses.FirstOrDefault(boss => boss.name == value);
             var mobFound = Enemies.main.mobs.FirstOrDefault(mob => mob.name == value);
             this.opponentProfile = bossFound ?? mobFound ?? this.opponentProfile;
         }
 	}
-    [HideInInspector] public Bot opponentProfile{get;set;}
-    [HideInInspector] public Bot opponent = new();
-    [HideInInspector] public Entity player{get;set;}
-    [HideInInspector] public ActionType action{get;set;}
-	[HideInInspector] public int currentAttack;
-	[HideInInspector] public string currentItem;
-    [HideInInspector] public bool opponentTurn;
-    [HideInInspector] public bool over;
-    [HideInInspector] public bool currentTurnEnded;
+    /*[HideInInspector]*/ public Bot opponentProfile{get;set;}
+    /*[HideInInspector]*/ public Bot opponent = new();
+    /*[HideInInspector]*/ public Entity player{get;set;}
+    /*[HideInInspector]*/ public ActionType action;
+	/*[HideInInspector]*/ public int currentAttack;
+	/*[HideInInspector]*/ public string currentItem;
+    /*[HideInInspector]*/ public bool opponentTurn;
+    /*[HideInInspector]*/ public bool over;
+    /*[HideInInspector]*/ public bool currentTurnEnded;
     public void Awake(){
 		Battle.main = this;
 		this.enabled = false;
@@ -74,15 +72,21 @@ public class Battle : MonoBehaviour{
 			var skill = classes[(int)user.classType][this.currentAttack];
 			var other = user == this.player ? this.opponent : this.player;
 			var target = skill.target == SkillTarget.Self ? user : other;
-			if(user.level <= skill.minimumLevel){return;}
+			if(user.level < skill.minimumLevel){
+				this.EndTurn();
+				return;
+			}
             this.script.content.Clear();
             this.script.content.Add($"{user.name} uses {skill.name}!");
             this.script.enabled = true;
-            target.currentStats[skill.statTarget] += skill.value;
-			user.currentStats[Stat.Mana] = Mathf.Max(0, user.currentStats[Stat.Mana] - skill.cost);
+            target.currentStats[skill.statTarget] = target.currentStats[skill.statTarget] + skill.value;
+			user.currentStats[Stat.Mana] = Mathf.Max(0,user.currentStats[Stat.Mana] - skill.cost);
         }
 		if(this.action == ActionType.ItemUse){
-			if(this.currentItem == ""){return;}
+			if(this.currentItem == ""){
+				this.EndTurn();
+				return;
+			}
 			this.script.content.Clear();
 			this.script.content.Add($"{user.name} uses {this.currentItem}!");
 			this.script.enabled = true;
@@ -94,6 +98,9 @@ public class Battle : MonoBehaviour{
 			this.playerImage.sprite = this.player.battleSprite;
 			this.script.enabled = true;
         }
+		this.EndTurn();
+	}
+	public void EndTurn(){
 		this.currentTurnEnded = true;
 		this.action = ActionType.None;
 		this.opponentTurn = !this.opponentTurn;
