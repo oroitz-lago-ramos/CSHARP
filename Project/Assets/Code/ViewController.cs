@@ -28,7 +28,7 @@ public class ViewController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !ViewController.onCombat)
+        if (Input.GetKeyDown(KeyCode.U) && !ViewController.onCombat)
         {
             ToggleInGameMenu();
         }
@@ -36,24 +36,21 @@ public class ViewController : MonoBehaviour
         {
             ToggleInventory();
         }
+        if (Input.GetKeyDown(KeyCode.Escape) && !ViewController.onCombat && ViewController.currentMenu is not ViewType.None or ViewType.Combat)
+        {
+            ToggleView(ViewController.currentMenu);
+        }
         // if (combat.end)
     }
 
-    private void ToggleView(ViewType view)
+    public void ToggleView(ViewType view)
     {
         int index = (int)view - 1;
         if (index >= 0 && index < views.Length)
         {
             isViewVisible[index] = !isViewVisible[index];
             views[index].SetActive(isViewVisible[index]);
-            if (ViewController.currentMenu != ViewType.None)
-            {
-                ViewController.currentMenu = ViewType.None;
-            }
-            else
-            {
-                currentMenu = view;
-            }
+            ViewController.currentMenu = ViewController.currentMenu != ViewType.None ? ViewType.None : view;
         }
     }
 
