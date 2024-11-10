@@ -13,7 +13,13 @@ public enum ActionType{
 }
 public class Battle : MonoBehaviour{
 	public static Battle main;
-    public Script script;
+	public static float[,] weaknessMatrix = {
+		//Knight Archer Mage
+		{1.0f,   2.0f,  0.5f}, //Knight
+		{0.5f,   1.0f,  2.0f}, //Archer
+		{2.0f,   0.5f,  1.0f}  //Mage
+	};
+	public Script script;
 	public Image playerImage;
 	public Image opponentImage;
     public string opponentName{
@@ -60,8 +66,8 @@ public class Battle : MonoBehaviour{
 		if(user.currentStats.health <= 0){
 			if(!this.opponentTurn){
 				var firstAlive = Team.main.members.FirstOrDefault(x=>x.currentStats.health > 0);
-				Team.main.Swap(Array.IndexOf(Team.main.members, firstAlive));
-                this.script.Set($"{this.player.name} has been defeated!");
+				Team.main.Swap(Array.IndexOf(Team.main.members,firstAlive));
+				this.script.Set($"{this.player.name} has been defeated!");
 				if(firstAlive != null){
 					this.player = firstAlive;
 					this.LoadProfile(this.player,this.player,true);
@@ -88,6 +94,7 @@ public class Battle : MonoBehaviour{
 				return;
 			}
 			this.script.Set($"{user.name} uses {skill.name}!");
+			var damage = skill.value * Battle.weaknessMatrix[(int)user.classType,(int)other.classType];
             target.currentStats[skill.statTarget] = Mathf.Clamp(target.currentStats[skill.statTarget] + skill.value,0,target.baseStats[skill.statTarget]);
 			user.currentStats[Stat.Mana] = Mathf.Max(0,user.currentStats[Stat.Mana] - skill.cost);
         }
