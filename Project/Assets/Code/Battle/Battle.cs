@@ -60,7 +60,8 @@ public class Battle : MonoBehaviour{
 		if(user.currentStats.health <= 0){
 			if(!this.opponentTurn){
 				var firstAlive = Team.main.members.FirstOrDefault(x=>x.currentStats.health > 0);
-				this.script.Set($"{this.player.name} has been defeated!");
+				Team.main.Swap(Array.IndexOf(Team.main.members, firstAlive));
+                this.script.Set($"{this.player.name} has been defeated!");
 				if(firstAlive != null){
 					this.player = firstAlive;
 					this.LoadProfile(this.player,this.player,true);

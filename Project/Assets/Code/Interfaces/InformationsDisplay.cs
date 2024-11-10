@@ -33,6 +33,7 @@ public class InformationsDisplay : MonoBehaviour
 
     private void OnEnable()
     {
+        SpriteAttribution();
         TextAttribution();
     }
 
@@ -74,8 +75,8 @@ public class InformationsDisplay : MonoBehaviour
         {
             Team.main.Swap(selectedCharacterIndex);
             selectedCharacterIndex = 0;
-            SpriteAttribution();
             UpdateSelectedCharacterBackgroundPosition();
+            SpriteAttribution();
             if (ViewController.onCombat)
             {
                 Battle.main.action = ActionType.TeamSwap;
@@ -119,21 +120,14 @@ public class InformationsDisplay : MonoBehaviour
         {
             images[i].sprite = Team.main.members[i].sprite;
         }
-        playerSprite.sprite = Team.main.members[0].sprite;
     }
 
     private void UpdateSelectedCharacterBackgroundPosition()
     {
         for (int i = 0; i < Team.main.members.Length; i++)
         {
-            if (i == selectedCharacterIndex)
-            {
-                selectedCharacterBackground[i].gameObject.SetActive(true);
-            }
-            else
-            {
-                selectedCharacterBackground[i].gameObject.SetActive(false);
-            }
+            var selector = selectedCharacterBackground[i].gameObject;
+            selector.SetActive(i == this.selectedCharacterIndex);
         }
     }
 }

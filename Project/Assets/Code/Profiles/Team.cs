@@ -10,5 +10,8 @@ public class Team : MonoBehaviour{
     public void Swap(int index){
         if(index >= members.Length){return;}
         (this.members[index],this.members[0]) = (this.members[0],this.members[index]);
+
+        SpriteRenderer playerSprite = GameObject.Find("Player").GetComponent<SpriteRenderer>();
+        playerSprite.sprite = Team.main.members[0].sprite;
     }
 }
