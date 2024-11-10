@@ -130836,22 +130836,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2445967757864068395}
     m_Modifications:
-    - target: {fileID: 1030565887597787416, guid: c267b864ed5cb8e41a10b518d563f4c5, type: 3}
-      propertyPath: 'content.Array.data[0]'
-      value: Achat.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030565887597787416, guid: c267b864ed5cb8e41a10b518d563f4c5, type: 3}
-      propertyPath: actions.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030565887597787416, guid: c267b864ed5cb8e41a10b518d563f4c5, type: 3}
-      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 8068424528584280766}
-    - target: {fileID: 1030565887597787416, guid: c267b864ed5cb8e41a10b518d563f4c5, type: 3}
-      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1677514797437229723, guid: c267b864ed5cb8e41a10b518d563f4c5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 77.51
@@ -130957,34 +130941,6 @@ PrefabInstance:
     - target: {fileID: 4526202600423649283, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
       propertyPath: m_Name
       value: Shop Health Potion (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
-      propertyPath: actions.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
-      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
-      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11500000, guid: db216dc49617f5a4b82df305c522c7b4, type: 3}
-    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
-      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
-      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
-      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6509750609722125008, guid: 70f70e02ef06c914ab50f67dc2cba6a0, type: 3}
-      propertyPath: actions.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
