@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 public class Script : MonoBehaviour{
+	public static List<Script> active = new();
 	public GameObject textBox;
 	public TMP_Text text;
 	public float speed = 30f;
@@ -33,7 +34,9 @@ public class Script : MonoBehaviour{
 			this.textBox.SetActive(false);
 			this.enabled = false;
 		}
+		Script.active.Add(this);
 	}
+	public void OnDisable() => Script.active.Remove(this);
 	public void Update(){
 		var delay = 1 / this.speed;
 		var keyPressed = Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0);

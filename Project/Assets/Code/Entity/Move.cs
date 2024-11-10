@@ -4,7 +4,7 @@ public class Move : MonoBehaviour{
     public float speed = 10f;
     public void FixedUpdate(){
         var movement = new Vector3();
-        if(ViewController.currentMenu != ViewType.None){return;}
+        if(ViewController.currentMenu != ViewType.None || Script.active.Count > 0){return;}
         if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) && !ViewController.onCombat){movement += Vector3.up;}
         if((Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) && !ViewController.onCombat) {movement += -Vector3.up;}
         if((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) && !ViewController.onCombat) {movement += -Vector3.right;}

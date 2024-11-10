@@ -23,8 +23,7 @@ public class Interact : MonoBehaviour{
 		return true;
 	}
 	public void Update(){
-		if(ViewController.currentMenu != ViewType.None){return;}
-		if (!Input.GetKeyDown(KeyCode.E)){return;}
+		if(ViewController.currentMenu != ViewType.None || Script.active.Count > 0 || !Input.GetKeyDown(KeyCode.E)){return;}
 		this.pressed = true;
 	}
 }
