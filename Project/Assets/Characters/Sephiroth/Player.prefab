@@ -337,7 +337,7 @@ MonoBehaviour:
     battleSprite: {fileID: 2462163826681699835, guid: 326c4c90ab6c2be46af438035fec2284, type: 3}
     classType: 0
     experience: 0
-    level: 0
+    level: 1
     baseStats:
       health: 100
       mana: 100
@@ -359,7 +359,7 @@ MonoBehaviour:
     battleSprite: {fileID: 3349391187094723686, guid: d535a5816066e854cb257599bb3d42eb, type: 3}
     classType: 1
     experience: 0
-    level: 0
+    level: 1
     baseStats:
       health: 100
       mana: 100
@@ -381,7 +381,7 @@ MonoBehaviour:
     battleSprite: {fileID: 7018229299051819269, guid: 74679af21d7f32f48a34950e0993f021, type: 3}
     classType: 2
     experience: 0
-    level: 0
+    level: 1
     baseStats:
       health: 100
       mana: 100

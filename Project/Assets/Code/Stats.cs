@@ -17,7 +17,7 @@ public class Stats{
     public float speed;
     public float accuracy;
     [Range(0,100)] public float criticalRate;
-    public void CopyTo(Stats other,bool full=true){
+    public Stats CopyTo(Stats other,bool full=true){
         if(full){
             other.health = this.health;
             other.mana = this.mana;
@@ -27,16 +27,23 @@ public class Stats{
         other.speed = this.speed;
         other.accuracy = this.accuracy;
         other.criticalRate = this.criticalRate;
+		return other;
     }
     public float this[Stat stat]{
         get{
             var stats = new[]{this.health,this.mana,this.attack,this.defense,this.speed,this.accuracy,this.criticalRate};
             return (int)stat < 0 || (int)stat >= stats.Length ? 0 : stats[(int)stat];
-        }
-        set{
+		}
+		set{
             var stats = new[]{this.health,this.mana,this.attack,this.defense,this.speed,this.accuracy,this.criticalRate};
             if((int)stat < 0 || (int)stat >= stats.Length){return;}
-            stats[(int)stat] = value;
+			if(stat is Stat.Health){this.health = value;}
+			if(stat is Stat.Mana){this.mana = value;}
+			if(stat is Stat.Attack){this.attack = value;}
+			if(stat is Stat.Defense){this.defense = value;}
+			if(stat is Stat.Speed){this.speed = value;}
+			if(stat is Stat.Accuracy){this.accuracy = value;}
+			if(stat is Stat.CriticalRate){this.criticalRate = value;}
         }
     }
 }

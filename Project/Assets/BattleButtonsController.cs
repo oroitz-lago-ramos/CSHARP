@@ -5,23 +5,18 @@ using UnityEngine.UI;
 
 public class BattleButtonsController : MonoBehaviour
 {
-    public GameObject[] mainButtons;
-    public GameObject[] attacksButtons;
+    public GameObject mainButtons;
+    public GameObject attacksButtons;
     public TextMeshProUGUI[] attacksNames;
    
     private void Start()
     {
-        for (int i = 0; i < attacksButtons.Length; i++)
-        { attacksButtons[i].SetActive(false); }
+        attacksButtons.SetActive(false);
     }
     public void OpenAttackMenu()
     {
-        for (int i = 0; i < mainButtons.Length; i++)
-        {
-            mainButtons[i].SetActive(false);
-        }
-        for (int i = 0; i < attacksButtons.Length; i++)
-        { attacksButtons[i].SetActive(true); }
+        mainButtons.SetActive(false);
+        attacksButtons.SetActive(true);
         var classes = new[] { Skills.main.knight, Skills.main.archer, Skills.main.mage };
         var skills = classes[(int)Team.main.members.First().classType];
         for (int i = 0; i < attacksNames.Length; i++)
@@ -31,42 +26,28 @@ public class BattleButtonsController : MonoBehaviour
     }
 
     public void CloseAttackMenu()
-    {
-        for (int i = 0; i < attacksButtons.Length; i++)
-        {
-            attacksButtons[i].SetActive(false);
-        }
-        for (int i = 0; i < mainButtons.Length; i++)
-        {
-            mainButtons[i].SetActive(true);
-        }
+    {   
+        attacksButtons.SetActive(false);
+        mainButtons.SetActive(true);
     }
 
     public void OpenMenu()
     {
-        for (int i = 0; i < mainButtons.Length; i++)
-        {
-            mainButtons[i].SetActive(false);
-        }
+       mainButtons.SetActive(false);
     }
 
     public void CloseMenu()
     {
         if (!this.gameObject.activeSelf) { return; }
-        for (int i = 0; i < mainButtons.Length; i++)
-        {
-            mainButtons[i].SetActive(true);
-        }
+        mainButtons.SetActive(true);
     }
 
     public void Update()
     {
-        if (Battle.main.currentTurnEnded)
+        if (Input.GetKeyDown(KeyCode.Escape) && ViewController.onCombat && ViewController.currentMenu is not ViewType.None)
         {
-            for (int i = 0; i < mainButtons.Length; i++)
-            {
-                mainButtons[i].SetActive(true);
-            }
+            ViewController.main.ToggleView(ViewController.currentMenu);
+            mainButtons.SetActive(true);
         }
     }
 

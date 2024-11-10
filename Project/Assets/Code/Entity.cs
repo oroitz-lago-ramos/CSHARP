@@ -12,8 +12,6 @@ public class Entity {
     public ClassType classType;
     public int experience;
     public int level;
-
     public Stats baseStats;
-
-    [HideInInspector] public Stats currentStats;
+    /*[HideInInspector]*/ public Stats currentStats;
 }
