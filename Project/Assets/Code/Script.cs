@@ -9,11 +9,19 @@ public class Script : MonoBehaviour{
 	public bool repeatable;
 	public List<string> content;
 	public UnityEvent actions;
-	public bool done;
-	public int lineIndex;
-	public int characterIndex;
-	public float lastTick;
-	public bool lineDone;
+	[HideInInspector] public bool done;
+	[HideInInspector] public int lineIndex;
+	[HideInInspector] public int characterIndex;
+	[HideInInspector] public float lastTick;
+	[HideInInspector] public bool lineDone;
+	public void Set(string content=default,UnityAction actions=default) => this.Set(new[]{content},actions);
+	public void Set(string[] content=default,UnityAction actions=default){
+		this.content.Clear();
+		this.actions.RemoveAllListeners();
+		if(content != null){this.content.AddRange(content);}
+		if(actions != null){this.actions.AddListener(actions);}
+		this.enabled = true;
+	}
 	public void OnEnable(){
 		this.textBox.SetActive(true);
 		this.lineIndex = 0;
@@ -34,27 +42,23 @@ public class Script : MonoBehaviour{
 			this.text.text = this.content[this.lineIndex];
 		}
 		if(Time.time < this.lastTick + delay){return;}
-		if(this.lineIndex >= this.content.Count - 1 && this.lineDone){
-			this.done = true;
-			if(keyPressed){
-				this.textBox.SetActive(false);
-				this.actions.Invoke();
-				this.enabled = false;
-			}
+		if(this.characterIndex < this.content[this.lineIndex].Length){
+			this.text.text += this.content[this.lineIndex][this.characterIndex];
+			this.characterIndex += 1;
+			this.lastTick = Time.time;
 			return;
 		}
-		if(this.characterIndex >= this.content[this.lineIndex].Length){
-			this.lineDone = true;
-			if(keyPressed && this.lineIndex < this.content.Count){
-				this.lineIndex += 1;
-				this.characterIndex = 0;
-				this.text.text = "";
-				this.lineDone = false;
-			}
-			return;
-		}
-		this.text.text += this.content[this.lineIndex][this.characterIndex];
-		this.characterIndex += 1;
-		this.lastTick = Time.time;
+		this.lineDone = true;
+		if(!keyPressed || this.lineIndex >= this.content.Count){return;}
+		this.lineIndex += 1;
+		this.characterIndex = 0;
+		this.text.text = "";
+		this.lineDone = false;
+		if(this.lineIndex < this.content.Count){return;}
+		this.done = true;
+		if(!keyPressed){return;}
+		this.textBox.SetActive(false);
+		this.actions.Invoke();
+		this.enabled = false;
 	}
 }

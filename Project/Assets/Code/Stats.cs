@@ -17,7 +17,7 @@ public class Stats{
     public float speed;
     public float accuracy;
     [Range(0,100)] public float criticalRate;
-    public void CopyTo(Stats other,bool full=true){
+    public Stats CopyTo(Stats other,bool full=true){
         if(full){
             other.health = this.health;
             other.mana = this.mana;
@@ -27,6 +27,7 @@ public class Stats{
         other.speed = this.speed;
         other.accuracy = this.accuracy;
         other.criticalRate = this.criticalRate;
+		return other;
     }
     public float this[Stat stat]{
         get{

@@ -23,5 +23,6 @@ public class Skills : MonoBehaviour{
     public Skill[] knight;
     public Skill[] archer;
     public Skill[] mage;
+	public Skill[] this[ClassType classType] => new Skill[][]{this.knight,this.archer,this.mage}[(int)classType];
     public void Awake() => Skills.main = this;
 }
