@@ -33,12 +33,12 @@ public class InformationsDisplay : MonoBehaviour
 
     private void OnEnable()
     {
-        SpriteAttribution();
         TextAttribution();
     }
 
     void Update()
     {
+        SpriteAttribution();
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if (selectedCharacterIndex > 0)
@@ -76,7 +76,6 @@ public class InformationsDisplay : MonoBehaviour
             Team.main.Swap(selectedCharacterIndex);
             selectedCharacterIndex = 0;
             UpdateSelectedCharacterBackgroundPosition();
-            SpriteAttribution();
             if (ViewController.onCombat)
             {
                 Battle.main.action = ActionType.TeamSwap;
