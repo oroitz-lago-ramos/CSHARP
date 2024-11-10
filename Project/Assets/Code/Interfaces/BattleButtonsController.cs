@@ -8,10 +8,11 @@ public class BattleButtonsController : MonoBehaviour
     public GameObject mainButtons;
     public GameObject attacksButtons;
     public TextMeshProUGUI[] attacksNames;
-   
+
     private void Start()
     {
         attacksButtons.SetActive(false);
+        mainButtons.SetActive(false);
     }
     public void OpenAttackMenu()
     {
@@ -26,14 +27,14 @@ public class BattleButtonsController : MonoBehaviour
     }
 
     public void CloseAttackMenu()
-    {   
+    {
         attacksButtons.SetActive(false);
         mainButtons.SetActive(true);
     }
 
     public void OpenMenu()
     {
-       mainButtons.SetActive(false);
+        mainButtons.SetActive(false);
     }
 
     public void CloseMenu()
@@ -48,6 +49,15 @@ public class BattleButtonsController : MonoBehaviour
         {
             ViewController.main.ToggleView(ViewController.currentMenu);
             mainButtons.SetActive(true);
+        }
+        if (!Battle.main.script.enabled && !attacksButtons.activeSelf && !Battle.main.opponentTurn && ViewController.currentMenu is ViewType.None)
+        {
+            mainButtons.SetActive(true);
+        }
+        else if (Battle.main.script.enabled)
+        {
+            mainButtons.SetActive(false);
+            attacksButtons.SetActive(false);
         }
     }
 

@@ -14,6 +14,7 @@ public class InformationsDisplay : MonoBehaviour
     public TextMeshProUGUI speedText;
     public TextMeshProUGUI accuracyText;
     public TextMeshProUGUI criticalRateText;
+    public TextMeshProUGUI levelText;
     public int selectedCharacterIndex = 0;
 
     public Image[] selectedCharacterBackground;
@@ -28,18 +29,22 @@ public class InformationsDisplay : MonoBehaviour
         playerSprite = GameObject.Find("Player").GetComponent<SpriteRenderer>();
         TextAttribution();
         SpriteAttribution();
+    }
 
+    private void OnEnable()
+    {
+        TextAttribution();
     }
 
     void Update()
     {
-        TextAttribution();
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if (selectedCharacterIndex > 0)
             {
                 selectedCharacterIndex -= 1;
                 UpdateSelectedCharacterBackgroundPosition();
+                TextAttribution();
             }
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -48,6 +53,7 @@ public class InformationsDisplay : MonoBehaviour
             {
                 selectedCharacterIndex += 1;
                 UpdateSelectedCharacterBackgroundPosition();
+                TextAttribution();
             }
         }
         if (Input.GetKeyDown(KeyCode.Tab)) {
@@ -55,11 +61,13 @@ public class InformationsDisplay : MonoBehaviour
             {
                 selectedCharacterIndex += 1;
                 UpdateSelectedCharacterBackgroundPosition();
+                TextAttribution();
             }
             else
             {
                 selectedCharacterIndex = 0;
                 UpdateSelectedCharacterBackgroundPosition();
+                TextAttribution();
             }
         }
         if (Input.GetKeyDown(KeyCode.Return))
@@ -90,6 +98,7 @@ public class InformationsDisplay : MonoBehaviour
             speedText.text = "Speed: " + member.baseStats.speed;
             accuracyText.text = "Accuracy: " + member.baseStats.accuracy;
             criticalRateText.text = "Crit. Rate: " + member.baseStats.criticalRate;
+            levelText.text = "Level: " + member.level.ToString();
         }
         else
         {
