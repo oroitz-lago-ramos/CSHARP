@@ -46,18 +46,19 @@ public class Battle : MonoBehaviour{
         this.over = false;
 		Team.main.members.ToList().ForEach(member => member.baseStats.CopyTo(member.currentStats,false));
 		this.player = Team.main.members.First(x=>x.currentStats.health > 0);
-		this.LoadProfile(this.player,this.player,true);
-		this.LoadProfile(this.opponentProfile,this.opponent,false);
+		this.LoadProfile(this.player,this.player,false);
+		this.LoadProfile(this.opponentProfile,this.opponent);
 		this.script.Set($"{this.opponentProfile.name} wants to fight!");
 		this.action = ActionType.None;
 		this.currentAttack = 0;
 		this.currentItem = "";
+		this.opponentTurn = this.player.currentStats.speed < this.opponent.currentStats.speed;
     }
-	public void LoadProfile(Entity from,Entity to,bool isPlayer){
-		var image = isPlayer ? this.playerImage : this.opponentImage;
-		image.sprite = isPlayer ? this.player.battleSprite : this.opponentProfile.battleSprite;
+	public void LoadProfile(Entity from,Entity to,bool fullLoad=true){
+		var image = to == this.player ? this.playerImage : this.opponentImage;
+		image.sprite = to == this.player ? this.player.battleSprite : this.opponentProfile.battleSprite;
 		to.name = from.name;
-		from.baseStats.CopyTo(to.baseStats).CopyTo(to.currentStats);
+		from.baseStats.CopyTo(to.baseStats).CopyTo(to.currentStats,fullLoad);
 	}
 	public void Update(){
 		var user = this.opponentTurn ? this.opponent : this.player;
@@ -70,7 +71,7 @@ public class Battle : MonoBehaviour{
 				this.script.Set($"{this.player.name} has been defeated!");
 				if(firstAlive != null){
 					this.player = firstAlive;
-					this.LoadProfile(this.player,this.player,true);
+					this.LoadProfile(this.player,this.player,false);
 					this.script.content.Add($"{this.player.name} is taking over!");
 					return;
 				}
@@ -94,7 +95,10 @@ public class Battle : MonoBehaviour{
 				return;
 			}
 			this.script.Set($"{user.name} uses {skill.name}!");
-			var damage = skill.value * Battle.weaknessMatrix[(int)user.classType,(int)other.classType];
+			var weakness = Battle.weaknessMatrix[(int)user.classType,(int)other.classType];
+			var criticalHit = UnityRandom.Range(1,100) < user.currentStats.criticalRate ? 1.5f : 1f;
+			var hitChance = UnityRandom.Range(1,20) < user.currentStats.accuracy ? 1 : 0;
+			var damage = skill.value * (user.currentStats.attack / other.currentStats.defense) * hitChance * criticalHit * weakness;
             target.currentStats[skill.statTarget] = Mathf.Clamp(target.currentStats[skill.statTarget] + skill.value,0,target.baseStats[skill.statTarget]);
 			user.currentStats[Stat.Mana] = Mathf.Max(0,user.currentStats[Stat.Mana] - skill.cost);
         }
@@ -108,7 +112,7 @@ public class Battle : MonoBehaviour{
 		}
 		if(this.action == ActionType.TeamSwap){
 			this.script.Set($"{user.name} is taking over!");
-			this.LoadProfile(this.player,this.player,true);
+			this.LoadProfile(this.player,this.player,false);
         }
 		this.EndTurn();
 	}
@@ -127,9 +131,8 @@ public class Battle : MonoBehaviour{
 		var text = new List<string>{$"{this.opponentProfile.name} has been defeated!",$"{this.player.name} gained {this.opponentProfile.experience} experience!"};
 		var currentLevel = this.player.level;
 		this.player.experience += this.opponentProfile.experience;
-		this.player.level = this.player.experience == 0 ? 1 : this.player.experience % (50 * this.player.level + 1);
-		this.player.level = Mathf.Max(1,this.player.level);
-		if(this.player.level != currentLevel){
+		this.player.CheckLevel();
+		if(currentLevel < this.player.level){
 			text.Add($"{this.player.name} reached level {this.player.level}!");
 		}
 		this.script.Set(text.ToArray(),actions);

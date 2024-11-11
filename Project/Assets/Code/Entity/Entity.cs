@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 public enum ClassType{
     Knight,
     Archer,
@@ -14,4 +15,18 @@ public class Entity {
     public int level;
     public Stats baseStats;
     /*[HideInInspector]*/ public Stats currentStats;
+	public void CheckLevel(){
+		Func<bool> LeveledUp = ()=>this.experience >= 50 * this.level * this.level;
+		while(LeveledUp()){
+			this.baseStats.health += 10;
+			this.baseStats.mana += 5;
+			this.baseStats.attack += 1;
+			this.baseStats.defense += 1;
+			this.baseStats.speed += 1;
+			this.baseStats.accuracy += 1;
+			this.baseStats.criticalRate = Mathf.Clamp(this.baseStats.criticalRate + 2,0,100);
+			this.baseStats.CopyTo(this.currentStats,false);
+			this.level += 1;
+		}
+	}
 }
