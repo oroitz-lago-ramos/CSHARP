@@ -7887,7 +7887,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5242670045991410608}
   - component: {fileID: 6812703085746469157}
-  - component: {fileID: 3116083136244664594}
   - component: {fileID: 7710901183637939460}
   m_Layer: 7
   m_Name: WarpExit
@@ -7957,43 +7956,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &3116083136244664594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 356893367588300928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4521805110c6ef342bf3ec07a4e261d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textBox: {fileID: 0}
-  text: {fileID: 0}
-  speed: 30
-  repeatable: 1
-  content: []
-  actions:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7710901183637939460}
-        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
-        m_MethodName: CancelInvoke
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  done: 0
-  lineIndex: 0
-  characterIndex: 0
-  lastTick: 0
-  lineDone: 0
 --- !u!114 &7710901183637939460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8104,7 +8066,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5866626821116921639}
   - component: {fileID: 6142341090178703921}
-  - component: {fileID: 8780262898965593381}
   - component: {fileID: 5701460324349759674}
   m_Layer: 7
   m_Name: WarpEntry
@@ -8174,31 +8135,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8780262898965593381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639904123878756467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4521805110c6ef342bf3ec07a4e261d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textBox: {fileID: 0}
-  text: {fileID: 0}
-  speed: 30
-  repeatable: 1
-  content: []
-  actions:
-    m_PersistentCalls:
-      m_Calls: []
-  done: 0
-  lineIndex: 0
-  characterIndex: 0
-  lastTick: 0
-  lineDone: 0
 --- !u!114 &5701460324349759674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61034,7 +60970,6 @@ GameObject:
   - component: {fileID: 8255527360983057641}
   - component: {fileID: 8798275209237920145}
   - component: {fileID: 8979180411107420404}
-  - component: {fileID: 2200343733171564101}
   m_Layer: 7
   m_Name: TilemapBossObject
   m_TagString: Untagged
@@ -61327,43 +61262,6 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!114 &2200343733171564101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4502926621788520309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4521805110c6ef342bf3ec07a4e261d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textBox: {fileID: 0}
-  text: {fileID: 0}
-  speed: 30
-  repeatable: 0
-  content: []
-  actions:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  done: 0
-  lineIndex: 0
-  characterIndex: 0
-  lastTick: 0
-  lineDone: 0
 --- !u!1 &4534990044154812525
 GameObject:
   m_ObjectHideFlags: 0
