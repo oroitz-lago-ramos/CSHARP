@@ -5,6 +5,13 @@ using UnityEngine.UI;
 
 public class BattleButtonsController : MonoBehaviour
 {
+    public StatBar playerHealthBar;
+    public StatBar playerManaBar;
+    public StatBar enemyHealthBar;
+
+    public TextMeshProUGUI healthText;
+    public TextMeshProUGUI manaText;
+
     public GameObject mainButtons;
     public GameObject attacksButtons;
     public TextMeshProUGUI[] attacksNames;
@@ -13,6 +20,39 @@ public class BattleButtonsController : MonoBehaviour
     {
         attacksButtons.SetActive(false);
         mainButtons.SetActive(false);
+    }
+
+    private void OnEnable()
+    {
+    }
+
+    private void SetInitialSliderValues()
+    {
+        var player = Team.main.members.First();
+
+        playerHealthBar.SetMaxValue((int)player.baseStats.health);
+        playerHealthBar.SetValue((int)player.currentStats.health);
+        healthText.text = player.currentStats.health.ToString() + " / " + player.baseStats.health;
+        manaText.text = player.currentStats.mana.ToString() + " / " + player.baseStats.mana.ToString();
+
+        playerManaBar.SetMaxValue((int)player.baseStats.mana);
+        playerManaBar.SetValue((int)player.currentStats.mana);
+
+        var enemy = Battle.main.opponent;
+        enemyHealthBar.SetMaxValue((int)enemy.baseStats.health);
+        enemyHealthBar.SetValue((int)enemy.currentStats.health);
+    }
+
+    public void UpdateSliderBars()
+    {
+        var player = Team.main.members.First();
+        playerHealthBar.SetValue((int)player.currentStats.health);
+        playerManaBar.SetValue((int)player.currentStats.mana);
+        healthText.text = player.currentStats.health.ToString() + " / " + player.baseStats.health;
+        manaText.text = player.currentStats.mana.ToString() + " / " + player.baseStats.mana.ToString();
+
+        var enemy = Battle.main.opponent;
+        enemyHealthBar.SetValue((int)enemy.currentStats.health);
     }
     public void OpenAttackMenu()
     {
@@ -45,6 +85,8 @@ public class BattleButtonsController : MonoBehaviour
 
     public void Update()
     {
+        SetInitialSliderValues();
+
         if (Input.GetKeyDown(KeyCode.Escape) && ViewController.onCombat && ViewController.currentMenu is not ViewType.None)
         {
             ViewController.main.ToggleView(ViewController.currentMenu);
