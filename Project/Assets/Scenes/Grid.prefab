@@ -5357,7 +5357,6 @@ GameObject:
   - component: {fileID: 3877265948991784806}
   - component: {fileID: 4468439521768510583}
   - component: {fileID: 4727909623400917785}
-  - component: {fileID: 99840446250389244}
   m_Layer: 8
   m_Name: TilemapMob
   m_TagString: Untagged
@@ -7878,27 +7877,6 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
---- !u!114 &99840446250389244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343831695719835881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b06ed9dfe682ef04eaac48a1782903b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemsLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  interactableLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  dangerLayer:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!1 &356893367588300928
 GameObject:
   m_ObjectHideFlags: 0
@@ -50567,7 +50545,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1291176316752347096}
   - component: {fileID: 332742166713004661}
-  - component: {fileID: 3918230271568008147}
   m_Layer: 8
   m_Name: MonsterArea
   m_TagString: Untagged
@@ -50636,27 +50613,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &3918230271568008147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3542758126680122353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b06ed9dfe682ef04eaac48a1782903b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemsLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  interactableLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  dangerLayer:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!1 &3570153828947061789
 GameObject:
   m_ObjectHideFlags: 0
