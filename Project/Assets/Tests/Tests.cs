@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using JetBrains.Annotations;
 using NUnit.Framework;
 using UnityEngine;
@@ -34,9 +35,22 @@ public class Tests
     public void EntityLevelUP()
     {
         Entity entity = new Entity();
-        Assert.AreEqual(entity.level, 0);
+        entity.level = 1;
+        Assert.AreEqual(entity.level, 1);
         entity.experience = 100000;
         entity.CheckLevel();
         Assert.AreNotEqual(entity.level, 0);
+    }
+
+    [Test]
+    public void TeamSwapping()
+    {
+        Team team = new Team();
+        Entity entity1 = new Entity();
+        Entity entity2 = new Entity();
+        team.members = new[] {entity1, entity2};
+        Assert.AreEqual(team.members[0], entity1);
+        team.Swap(1);
+        Assert.AreEqual(team.members[0], entity2);
     }
 }

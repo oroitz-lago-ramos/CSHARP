@@ -7,11 +7,15 @@ public class Team : MonoBehaviour{
         Team.main = this;
         this.members.ToList().ForEach(x=>x.baseStats.CopyTo(x.currentStats));
     }
-    public void Swap(int index){
-        if(index >= members.Length){return;}
-        (this.members[index],this.members[0]) = (this.members[0],this.members[index]);
+    public void Swap(int index)
+    {
+        if (index >= members.Length) { return; }
+        (this.members[index], this.members[0]) = (this.members[0], this.members[index]);
 
-        SpriteRenderer playerSprite = GameObject.Find("Player").GetComponent<SpriteRenderer>();
-        playerSprite.sprite = Team.main.members[0].sprite;
+        SpriteRenderer playerSprite = GameObject.Find("Player")?.GetComponent<SpriteRenderer>();
+        if (playerSprite != null)
+        {
+            playerSprite.sprite = Team.main.members[0].sprite;
+        }
     }
 }

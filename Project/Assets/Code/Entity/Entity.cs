@@ -13,8 +13,8 @@ public class Entity {
     public ClassType classType;
     public int experience;
     public int level;
-    public Stats baseStats;
-    /*[HideInInspector]*/ public Stats currentStats;
+    public Stats baseStats = new Stats();
+    /*[HideInInspector]*/ public Stats currentStats = new Stats();
 	public void CheckLevel(){
 		Func<bool> LeveledUp = ()=>this.experience >= 50 * this.level * this.level;
 		while(LeveledUp()){

@@ -68,6 +68,7 @@
     <Compile Include="Assets\Code\Profiles\Enemies.cs" />
     <Compile Include="Assets\Code\Warp.cs" />
     <Compile Include="Assets\Code\Interfaces\InvetoryController.cs" />
+    <Compile Include="Assets\Code\SaveFile.cs" />
     <Compile Include="Assets\Code\WaterStep.cs" />
     <Compile Include="Assets\Code\AreaCheck.cs" />
     <Compile Include="Assets\Code\Inventory.cs" />

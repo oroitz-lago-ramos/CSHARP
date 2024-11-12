@@ -8392,7 +8392,7 @@ MonoBehaviour:
     m_Bits: 8
   source: {fileID: 0}
   clip: {fileID: 8300000, guid: 50158d3b3160c48448e8f7f44b37859b, type: 3}
-  volume: 0.05
+  volume: 1
   fadeDuration: 1
   actions:
     m_PersistentCalls:
@@ -17505,7 +17505,7 @@ MonoBehaviour:
     m_Bits: 8
   source: {fileID: 0}
   clip: {fileID: 8300000, guid: 2d7621539cc854244b1046fe399ead90, type: 3}
-  volume: 0.1
+  volume: 1
   fadeDuration: 1
   actions:
     m_PersistentCalls:
@@ -50408,7 +50408,7 @@ MonoBehaviour:
     m_Bits: 8
   source: {fileID: 0}
   clip: {fileID: 8300000, guid: c54ae11018763814e938baca7e95019c, type: 3}
-  volume: 0.05
+  volume: 1
   fadeDuration: 1
   actions:
     m_PersistentCalls:
@@ -61769,7 +61769,7 @@ MonoBehaviour:
     m_Bits: 8
   source: {fileID: 0}
   clip: {fileID: 8300000, guid: cfa8ce9e28bdc9a4bb710cf51b7b093a, type: 3}
-  volume: 0.1
+  volume: 1
   fadeDuration: 1
   actions:
     m_PersistentCalls:
@@ -112054,7 +112054,7 @@ MonoBehaviour:
     m_Bits: 8
   source: {fileID: 0}
   clip: {fileID: 8300000, guid: a2b5ee7af6b5b144ba6149674b556ba6, type: 3}
-  volume: 0.1
+  volume: 1
   fadeDuration: 1
   actions:
     m_PersistentCalls:
@@ -112616,7 +112616,8 @@ GameObject:
   - component: {fileID: 649288345395190205}
   - component: {fileID: 4380354712171834999}
   - component: {fileID: 2448705433904047088}
-  m_Layer: 0
+  - component: {fileID: 1895564451866838373}
+  m_Layer: 7
   m_Name: sprite_save_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112739,6 +112740,44 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.45, y: 1.37}
   m_EdgeRadius: 0
+--- !u!114 &1895564451866838373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7320357833271584407}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4521805110c6ef342bf3ec07a4e261d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 0}
+  text: {fileID: 0}
+  speed: 30
+  repeatable: 1
+  content:
+  - Game has been saved!
+  actions:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: SaveFile, Assembly-CSharp
+        m_MethodName: Save
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  done: 0
+  lineIndex: 0
+  characterIndex: 0
+  lastTick: 0
+  lineDone: 0
 --- !u!1 &7518080969079870574
 GameObject:
   m_ObjectHideFlags: 0
@@ -113084,7 +113123,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0.1
+          m_FloatArgument: 1
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -135876,7 +135915,7 @@ MonoBehaviour:
     m_Bits: 8
   source: {fileID: 0}
   clip: {fileID: 8300000, guid: 36b2d32e1d4e5514bb52e3be28e5b18f, type: 3}
-  volume: 5
+  volume: 50
   fadeDuration: 1
   actions:
     m_PersistentCalls:
