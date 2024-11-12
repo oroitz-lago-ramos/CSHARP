@@ -14,4 +14,14 @@ public class StatBar : MonoBehaviour
     {
         slider.value = value;
     }
+
+    public float GetMaxValue()
+    {
+        return slider.maxValue;
+    }
+
+    public float GetValue()
+    {
+        return slider.value;
+    }
 }
