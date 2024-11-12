@@ -19,6 +19,7 @@ public class MainMenu : MonoBehaviour
     public void LoadGameButton()
     {
         SceneManager.LoadScene("Map");
+		SaveFile.loading = true;
         Debug.Log("Load Game Pressed");
 
     }
